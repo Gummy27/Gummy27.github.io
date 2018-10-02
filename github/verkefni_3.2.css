@@ -1,0 +1,98 @@
+/*Wrapper*/
+.wrapper{
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    "header header header header header"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "sidebar1 main main main sidebar2"
+    "footer footer footer footer footer"
+}
+/*Tag skilyrðir*/
+*{
+    text-align: center;
+}
+article{
+    padding: 10px;
+    text-align: left;
+}
+h4{
+    text-align: left;
+    padding: 10px;
+}
+footer{
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+nav{
+    background-image: linear-gradient(rgb(150, 78, 45), brown);
+    color: white;
+}
+
+/*Skilyrði fyrir hlekki*/
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*Klasar*/
+/*Haus*/
+.header{
+    grid-area: header;
+    background-image: linear-gradient(goldenrod, yellow);
+    color: rgb(100, 84, 66);
+}
+.header h1{
+    font-style: italic;
+    font-size: 2em;
+}
+.header p{
+    text-decoration: underline;
+}
+
+/*Hlekkirnir*/
+.hlekkur1{
+    grid-area: hlekkur1; 
+}
+.hlekkur2{
+    grid-area: hlekkur2; 
+}
+.hlekkur3{
+    grid-area: hlekkur3; 
+}
+.hlekkur4{
+    grid-area: hlekkur4; 
+}
+.hlekkur5{
+    grid-area: hlekkur5; 
+}
+
+/*Hliðirnar*/
+.sidebar_vinstri{
+    grid-area: sidebar1;
+    background-color: burlywood;
+    text-align: left;
+}
+.sidebar_haegri{
+    grid-area: sidebar2;
+    background-color: burlywood;
+    text-align: left;
+}
+
+/*Aðal texti við miðju*/
+.main{
+    grid-area: main; 
+    background-color: rgb(255, 225, 185);
+}
+
+/*Fótur*/
+.footer{
+    grid-area: footer;
+    background-image: linear-gradient(rgb(182, 96, 26), brown)
+}
+
