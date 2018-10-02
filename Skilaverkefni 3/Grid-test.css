@@ -1,0 +1,170 @@
+/*Stillingar fyrir hlekki*/
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.titlar{
+    padding: 20px;
+    text-decoration: underline;
+}
+.verkefni_border{
+    border: 1px solid blue;
+}
+.verkefni_bakgrunnur{
+    background: greenyellow;
+    text-align: center;
+}
+.grid_header{
+    display: grid;
+    background: rgb(188, 253, 188);
+}
+.grid_header h1{
+    text-align: center;
+    line-height: 0px;
+}
+.grid_header_link{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: right;
+}
+.right{
+    text-align: right;
+    padding: 5px;
+    line-height: 2px;
+    font-style: italic;
+}
+.Arial_p{
+    font-family: arial;
+}
+
+/*Verkefni 3.1.1*/
+/*Grid Skipanirnar*/
+.grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    border: 1px black;
+}
+.grid section{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*Letur Skipanirnar*/
+p{
+    font-size: 1em;
+}
+.Times{
+    font-family: 
+}
+.Arial h2{
+    font-family:Arial;
+}
+.Arial p{
+    font-family: sans-serif;
+}
+.Courier h2{
+    font-family: Courier;
+}
+.Courier p{
+    font-family: monospace; 
+}
+
+/*Verkefni 3.1.2*/
+/*Grid Skipanirnar*/
+.grid1{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.grid1 section{
+    border: 1px solid black;
+    padding: 10px;
+}
+.grid1 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*Letur Skipanirnar*/
+p{
+    font-size: 1em;
+}
+.georgia h1{
+    font-family: 'Georgia';
+}
+.georgia p{
+    font-family: 'Trebuchet MS';
+}
+
+.trebuchet h1{
+    font-family: 'Trebuchet MS';
+}
+.trebuchet p{
+    font-family: 'Georgia';
+}
+
+.arial_black h1{
+    font-family: 'Arial Black';
+}
+.arial_black p{
+    font-family: 'Palatino Linotype';
+}
+
+.palatino_linotype h1{
+    font-family: 'palatino Linotype';
+}
+.palatino_linotype p{
+    font-family: 'Arial Black';
+}
+
+
+/*Verkefni 3.1.3*/
+/*Grid Skipanir*/
+.grid2{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+.grid2 div{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*Texta skipanir*/
+.letur_smatt{
+    line-height: 1.6em;
+    font-size: 0.7em;
+}
+.rautur{
+    color: red;
+}
+
+/*3.1.5*/
+/*Grid skipanir*/
+.grid3{
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 20px;
+}
+
+/*Texta Skipanir*/
+.impact{
+    background: rgb(181, 211, 181);
+    width: ;
+}
+.impact h1{
+    font-family: 'Impact';
+    font-size: 4em;
+    text-align: center;
+    line-height: 5px;
+}
+.skaletra{
+    color: crimson;
+    font-style: italic;
+}
