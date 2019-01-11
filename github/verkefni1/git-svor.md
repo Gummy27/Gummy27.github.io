@@ -16,3 +16,5 @@
 
 4.
     Útgáfuskýring geymir gamlar útgáfur svo að þú getir endurkallað þær.
+
+5. Aukinn stjórn og meiri hugsanlegar aðgerðir með github möppurnar eru helstu rök fyrir því að nota    git.
