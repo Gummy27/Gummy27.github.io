@@ -9,3 +9,8 @@
     git status - Prentar út þær breytingar sem þú ert búin að gera án þessa að gera commit.
     git diff - Ber saman github og það sem þú ert með á tölvunni.
 
+3. 
+    git log - Prentar út öll commitin sem þú hefur gert.
+    git checkout - Skiptir um tré eða endurkallar eydd skjöl.
+    git branch - eyðir, bætir við eða prentar möppu/skjala tré.
+
