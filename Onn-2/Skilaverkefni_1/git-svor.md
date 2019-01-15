@@ -19,3 +19,4 @@
 
 5. Aukinn stjórn og meiri hugsanlegar aðgerðir með github möppurnar eru helstu rök fyrir því að nota    git.
 
+6. Eftir hverja stóru breytingum og líka við enda dags svo að þú glatir ekki því sem þú gerðir.
