@@ -14,3 +14,6 @@
     git checkout - Skiptir um tré eða endurkallar eydd skjöl.
     git branch - eyðir, bætir við eða prentar möppu/skjala tré.
 
+4.
+    Útgáfuskýring geymir gamlar útgáfur svo að þú getir endurkallað þær.
+
