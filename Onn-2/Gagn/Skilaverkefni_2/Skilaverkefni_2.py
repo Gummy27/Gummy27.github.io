@@ -1,17 +1,15 @@
 #Guðmundur Brimir Björnsson
-#18. janúar, 2019
+#Uppsetning hafinn: 18. janúar, 2019 - Uppsetning kláruð: 25. janúar, 2019
 print("Höfundur: Guðmundur Brimi Björnsson")
 print("Uppsetning hafinn: 18. janúar 2019")
 val = ""
-def greinaskil(): #Fallið greinaskil er skilgreind og verður notað til að gera.... Þarf ég að segja þér hvað það á að gera það er í nafninu.
+verkefna_listi = ["Bæta við tengilið", "Breyta tengilið", "Eyða tengilið", "Skrifa út tengiliði", "Hætta"]
+def greinaskil(): #Fallið greinaskil er skilgreint og verður notað til að gera.... Þarf ég að segja þér hvað það á að gera það er í nafninu.
     print("==============")
 
 while(val != "5"): #Þessi while lykkja á að tryggja það að notandi geti gert hvert dæmi nokkrum sinnum.
     for x in range(5): #Valmynd er prentuð út með for lykkju.
-        if(x != 4):
-            print(str(x+1)+". Dæmi", x+1)
-        else:
-            print(str(x+1)+". Hætta")
+        print(str(x+1)+".", verkefna_listi[x])
     val = input("Hvaða dæmi viltu skoða? : ")
     greinaskil()
 
@@ -36,7 +34,7 @@ while(val != "5"): #Þessi while lykkja á að tryggja það að notandi geti ge
         
         line = f.read() 
         for x in line:
-            if(x == ";"): #Gáp er hvort að x sé ;. Ef svo er þá er orðið sett inn í tengilidur listann.
+            if(x == ";"): #Gáð er hvort að x sé ;. Ef svo er þá er orðið sett inn í tengilidur listann.
                 tengilidur.append(innsetning)
                 innsetning = "" #Innsetning er núllstillt.
             elif(x == "\n"): #Gáð er hvort að x sé \n. Ef svo er þá er orðið sett í tengilidur listann og tengilidur listinn er settur í simaskra.
@@ -56,7 +54,7 @@ while(val != "5"): #Þessi while lykkja á að tryggja það að notandi geti ge
 
         #Þessi while lykkja mun innihalda kóða sem á að finna staðsetningu tengiliðarins sem á að breyta.
         while(ma_koma != 1):
-            leit = input("Hvaða tengilið viltu breyta? : ")
+            leit = input("Hvaða tengilið viltu breyta? Skrifaðu nafnið hans: ")
             for x in range(teljari):
                 try: #Í fyrrum útgáfum kóðans þá myndi kóðinn ganga að eilífu. Létt er að laga þetta en ég ákvað að í staðinn setja upp error skilyrði til að segja notandann að hann hafi skrifað inn eitthvað vitlaust.
                     if(simaskra[x][0] == leit): #Þetta tjékkar hvort að nafnið þarna sé það sama og það nafn sem við erum að leita að.
@@ -128,7 +126,6 @@ while(val != "5"): #Þessi while lykkja á að tryggja það að notandi geti ge
                 tengilidur.append(innsetning)
                 innsetning = ""
             elif(x == "\n"):
-                print("Yes")
                 tengilidur.append(innsetning)
                 simaskra.append(tengilidur)
                 tengilidur = []
@@ -136,10 +133,11 @@ while(val != "5"): #Þessi while lykkja á að tryggja það að notandi geti ge
             else:
                 innsetning = innsetning + x
         #Þetta eru einu viðbæturnar. Í þessari lykkju er nafn, kt og símanúmer tengiliðs skrifað fallega í einni línu.
+        print(" Kt:                 Sími:       Nafn:")
         for x in range(len(simaskra)):
-            print("Nafn:", simaskra[x][0], end=", ")
-            print("Kt:", simaskra[x][1], end=", ")
-            print("Símanúmer:", simaskra[x][2])
+            print(simaskra[x][1][0:7]+"-"+simaskra[x][1][7:], end="  ")
+            print(simaskra[x][2][0:4]+"-"+simaskra[x][2][4:], end="  ")
+            print(simaskra[x][0])
 
     #Dæmi 5
     elif(val == "5"):
