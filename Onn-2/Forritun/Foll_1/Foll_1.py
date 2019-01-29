@@ -1,5 +1,5 @@
 #Guðmundur Brimir Björnsson
-#Uppsetning hafinn 29. janúar, 2019 - kláruð
+#Uppsetning hafinn 29. janúar, 2019 - kláruð 29. janúar, 2019
 def greinaskil():
     print("=================")
     
