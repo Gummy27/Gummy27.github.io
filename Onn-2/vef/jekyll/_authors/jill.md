@@ -1,6 +1,6 @@
 ---
-short_name: jill
-name: Jill Smith
-position: Chief Editor
+short_name: Jón
+name: Jón Gunnarsson
+position: Blaðamaður
 ---
-Jill is an avid fruit grower based in the south of France.
+Jón vinnur við garðyrkjustörf. Hann er mjög ástríðufullur þegar kemur að plöntum.

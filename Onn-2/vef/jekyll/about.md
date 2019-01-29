@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Top 10 reasons why einar sucks dick in smash
+title: Um síðuna
 ---
-# Top 10 reason why einar sucks dick in smash
+# Þessi segir hvað síðan er um.
 
-Dab nation y'all
+Þetta mun verða skemmtilegt.

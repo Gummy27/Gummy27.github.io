@@ -1,6 +1,6 @@
 ---
-short_name: ted
-name: Ted Doe
-position: Writer
+short_name: Gerður
+name: Gerður Daníelsdóttir
+position: Ritari
 ---
-Ted has been eating fruit since he was baby.
+Gerður hefur verið að éta ávexti síðan hún var stelpa.
