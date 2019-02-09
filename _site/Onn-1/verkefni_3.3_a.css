@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+/*Wrapper*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    "header header header header header1"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "main main main sidebar1 sidebar1"
+    "main main main sidebar2 sidebar2"
+    "footer footer footer footer footer"
+}
+
+/*Tag skilyrðir*/
+aside{ 
+    background-color: rgb(219, 219, 219);
+    border-right: 1px solid blue;
+}
+main{
+    background-color: rgb(219, 219, 219);
+    border-left: 1px solid blue;
+}
+h2{
+    font-family: Spirax;
+}
+header{
+    background: blue;
+    color: white;
+    padding: 0px;
+}
+article{
+    padding: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+}
+h4{
+    text-align: left;
+    padding: 10px;
+    color: blue;
+    font-size: 1.5em;
+}
+footer{
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    border-top: 1px solid white;
+}
+nav{
+    background: white;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+/*Skilyrði fyrir hlekki*/
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background: blue;
+    color: white;
+}
+
+/*Klasar*/
+/*Haus*/
+.header{
+    grid-area: header;
+    background: blue;
+    color: white;
+    text-align: right;
+}
+.header h1{
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: left;
+    padding: 10px;
+    line-height: 0px;
+    font-family: play;
+}
+.header1{
+    grid-area: header1;
+    text-align: left;
+    font-family: spirax;
+    font-size: 1.3em;
+    line-height: 15px;
+}
+
+/*Hlekkirnir*/
+.hlekkur1{
+    grid-area: hlekkur1; 
+    border-left: 1px solid blue;
+}
+.hlekkur2 {grid-area: hlekkur2;}
+.hlekkur3 {grid-area: hlekkur3;}
+.hlekkur4 {grid-area: hlekkur4;}
+.hlekkur5{
+    grid-area: hlekkur5; 
+    border-right: 1px solid blue;
+}
+
+/*Hliðirnar*/
+.sidebar_vinstri{
+    grid-area: sidebar1;
+    text-align: left;
+}
+.sidebar_haegri{
+    grid-area: sidebar2;
+    text-align: left; 
+}
+
+/*Aðal texti við miðju*/
+.main {grid-area: main;}
+
+/*Fótur*/
+.footer{
+    grid-area: footer;
+    background-color: rgb(238, 238, 238);
+    color: blue;
+    text-align: left;
+    line-height: 0px;
+    border: 1px solid blue;
+}
+.footer>p {text-align: right;}
+

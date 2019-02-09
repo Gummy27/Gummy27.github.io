@@ -1,0 +1,90 @@
+/*Haus*/
+.haus{
+    background: rgb(218, 243, 218);
+}
+.haus>h1{
+    font-weight: bold;
+    text-align: center;
+}
+.haus>p{
+    text-align: right;
+}
+
+/*Link*/
+a{
+    font-style: italic;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*3 dálkar*/
+.grid_3_dalkar{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid_3_dalkar>div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.times_new_roman{
+    font-family: 'Times New Roman';
+}
+.arial_sans_serif{
+    font-family: sans-serif;
+}
+.courier_monotype{
+    font-family: 'Courier New';
+}
+
+/*2 dálkar*/
+.grid_2_dalkar{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid_2_dalkar>div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.georgia{
+    font-family: 'Georgia';
+}
+.trebuchet_ms{
+    font-family: 'Trebuchet MS';
+}
+.arial_black{
+    font-family: 'Arial Black';
+}
+.palatino_linotype{
+    font-family: 'Palatino Linotype';
+}
+.impact{
+    font-family: impact;
+    font-size: 3em;
+    background: rgb(218, 243, 218);
+    text-align: center;
+    line-height: 1.7em;
+}
+
+/*Einhverjir klasar*/
+.smatt_letur{
+    text-height: 1.6em;
+    font-size: 0.7em;
+}
+.poster{
+    color: crimson;
+    font-style: italic;
+    line-height: 0em;
+}
+
+/*Tag skilyrðir*/
+pre{
+    color: crimson;
+    font-size: 1.2em;
+}
+h3{
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid>section{
+    border: 1px solid black;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}

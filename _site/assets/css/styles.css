@@ -1,2 +1,11 @@
 .current {
-  color: green; }
+  padding-left: 10px;
+  background-color: gray;
+  color: red; }
+
+.valmynd {
+  text-align: center; }
+
+.test {
+  padding-left: 10px;
+  background-color: gray; }

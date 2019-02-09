@@ -1,0 +1,10 @@
+Hvað heitir höfuðborg Tyrklands?;Ankara
+Hvað heitir höfuðborg Argentínu?;Buenos Aires
+Hvað er 2+2?;4
+Hvað heitir núverandi forseti Íslands?;Guðni
+Hverjar eru fyrstu 3 tölur pí?;3,14
+Hvað er það rétta, pylsa eða pulsa?;pylsa
+Hvað heitir höfundur forritsin í fullu nafni?;Guðmundur Brimir Björnsson
+Hver er höfuðborg Noregs?;Osló
+Hvað er 6*6?;36
+Hver er höfuðborg Ástralíu?;Canberra
