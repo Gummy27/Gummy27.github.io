@@ -1,13 +1,23 @@
-.current {
-  padding-left: 10px;
-  background-color: gray;
-  color: red;
-  }
+.current{
+  color: green;
+}
 .valmynd{
   text-align: center;
+  background-color: black;
+  padding: 10px;
+  padding-top: 11px;
+}
+.valmynd a{
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+  border-top: 0px;
+  border-bottom: 0px;
+  font-size: 2em;
 }
 
-.test{
-  padding-left: 10px;
-  background-color: gray;
+.valmynd a:hover{
+  color: green;
+  background-color: white;
+  border: 1px solid black;
 }
