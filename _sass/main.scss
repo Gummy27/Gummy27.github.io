@@ -1,23 +1,27 @@
-.current{
-  color: green;
-}
+$GrunnLitur: green;
+body{margin: 0px;}
+h1{text-align: center;}
 .valmynd{
   text-align: center;
-  background-color: black;
-  padding: 10px;
-  padding-top: 11px;
+  background-color: $GrunnLitur;
+  padding: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  a{
+    text-decoration: none;
+    padding: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-size: 2em;
+  }
+  a:hover{
+    background-color: lighten($color: $GrunnLitur, $amount: 10);
+    color: invert($color: $GrunnLitur);
+  }
 }
-.valmynd a{
-  text-decoration: none;
-  padding: 10px;
-  border: 1px solid black;
-  border-top: 0px;
-  border-bottom: 0px;
-  font-size: 2em;
+.valmynd_litur{
+  color: lighten($color: $GrunnLitur, $amount: 20);
 }
-
-.valmynd a:hover{
-  color: green;
-  background-color: white;
-  border: 1px solid black;
+.current{
+  color: darken($color: $GrunnLitur, $amount: 20)
 }
