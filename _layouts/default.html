@@ -5,10 +5,15 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <body class="bakgrunnur">
-    {% include navigation.html %}
+  <body class="default_klasi">
     <article>
-      {{ content }}
-    </article>
+      {% include navigation.html %}
+      <header>
+        {{ page.titill }}
+      </header>
+      <article>
+        {{ content }}
+      </article>
+  </article>
   </body>
 </html>
