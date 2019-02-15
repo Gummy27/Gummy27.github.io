@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a680b4-965c-4d14-9f98-0f78d1a9ff30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_Onn-2/Forritun/Skilaverkefni_2/Skilaverkefni_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Onn-2/Forritun/Timaverkefni_1/Timaverkefni_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/Timaverkefni_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/gaeludyr.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,40 +13,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/gaeludyr.txt">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="80">
+                    <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="467915689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
           <entry key="csv+" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="7" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="780" />
-          <entry key="py" value="7457" />
-          <entry key="txt" value="296" />
+          <entry key="py" value="19751" />
+          <entry key="txt" value="387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1076" />
-          <entry key="Python" value="7457" />
+          <entry key="PLAIN_TEXT" value="1167" />
+          <entry key="Python" value="19751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -57,22 +81,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_Onn-2/Forritun/Skilaverkefni_2/Skilaverkefni_2.py">
+        <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/Timaverkefni_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-              <folding>
-                <element signature="e#64#77#0" expanded="true" />
-                <marker date="1549378900275" expanded="true" signature="108:202" ph="..." />
-                <marker date="1549378900275" expanded="true" signature="752:853" ph="..." />
-                <marker date="1549378900275" expanded="true" signature="1164:1365" ph="..." />
-                <marker date="1549378900275" expanded="true" signature="2894:3287" ph="..." />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_2/Skilaverkefni_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,19 +122,23 @@
         <option value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py" />
         <option value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/spurningar.txt" />
         <option value="$PROJECT_DIR$/_Onn-2/Forritun/Skilaverkefni_2/Skilaverkefni_2.py" />
+        <option value="$PROJECT_DIR$/Onn-2/Forritun/Timaverkefni_1/Timaverkefni_1.py" />
+        <option value="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/gaeludyr.txt" />
+        <option value="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/Timaverkefni_1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,18 +154,37 @@
             <path>
               <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_Onn-2" type="462c0819:PsiDirectoryNode" />
+              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
               <item name="Gagn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
+              <item name="Gagn" type="462c0819:PsiDirectoryNode" />
+              <item name="Skilaverkefni_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
+              <item name="Gagn" type="462c0819:PsiDirectoryNode" />
+              <item name="Timaverkefni_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Skilaverkefni_2">
+  <component name="RunManager" selected="Python.Timaverkefni_1 (1)">
     <configuration name="Skilaverkefni_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Gummy27.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,12 +241,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Timaverkefni_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Gummy27.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/Timaverkefni_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Timaverkefni_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Gummy27.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun/Timaverkefni_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Timaverkefni_1/Timaverkefni_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Skilaverkefni_3" />
       <item itemvalue="Python.Skilaverkefni_2" />
+      <item itemvalue="Python.Timaverkefni_1" />
+      <item itemvalue="Python.Timaverkefni_1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Timaverkefni_1 (1)" />
+        <item itemvalue="Python.Timaverkefni_1" />
         <item itemvalue="Python.Skilaverkefni_2" />
       </list>
     </recent_temporary>
@@ -209,15 +311,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3252688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" x="640" y="30" width="639" height="650" id="Run" order="2" side_tool="true" type="WINDOWED" weight="0.3232682" />
+      <window_info anchor="bottom" x="0" y="23" width="1536" height="801" id="Run" order="2" side_tool="true" type="WINDOWED" weight="0.3232682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,17 +335,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_2/Skilaverkefni_2.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#64#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/spurningar.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -252,20 +354,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py" />
     <entry file="file://$PROJECT_DIR$/_Onn-2/Forritun/Skilaverkefni_2/Skilaverkefni_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Timaverkefni_1/Timaverkefni_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
           <folding>
-            <element signature="e#64#77#0" expanded="true" />
-            <marker date="1549378900275" expanded="true" signature="108:202" ph="..." />
-            <marker date="1549378900275" expanded="true" signature="752:853" ph="..." />
-            <marker date="1549378900275" expanded="true" signature="1164:1365" ph="..." />
-            <marker date="1549378900275" expanded="true" signature="2894:3287" ph="..." />
+            <marker date="1550163814673" expanded="true" signature="177:213" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_2/Skilaverkefni_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/gaeludyr.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Gagn/Timaverkefni_1/Timaverkefni_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
