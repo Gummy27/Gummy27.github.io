@@ -1,0 +1,45 @@
+$staerd: 1.7em;
+
+.valmynd{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid darken($GrunnLitur, 50);
+    margin: 0;
+    padding: 1em;
+    font-family: comic sans-serif;
+    div:first-child{
+        display: flex;
+        img{
+            height: 1.9em;
+            width: 1.9em;
+        }
+        p{
+            grid-area: vinstri;
+            font-size: $staerd;
+            margin: 0;
+            padding-left: 2px;
+        }
+    }
+    div:nth-child(2){
+        text-align: left;
+        a{
+        grid-area: haegri;
+        text-decoration: none;
+        font-size: $staerd;
+        justify-content: right;
+        padding-right: 10px;
+        }
+        a:hover{
+        color: invert($color: $GrunnLitur);
+        border: 1px solid white;
+        border-bottom: 0px;
+        }
+        .valmynd_litur{
+        margin: 0;
+        }
+        .current{
+        color: darken($color: $GrunnLitur, $amount: 20)
+        }
+    }
+  }

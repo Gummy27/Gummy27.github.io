@@ -2,52 +2,70 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   height: 100vh;
-  background-image: linear-gradient(green, #1aff1a); }
-
-.default_klasi article {
-  max-width: 1280px;
-  background-color: #00b300; }
-  .default_klasi article header {
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    padding: 20px; }
-  .default_klasi article article {
-    font-size: 1.15em;
-    display: grid;
-    grid-template-columns: 800px 480px;
-    grid-template-areas: "aside1 aside2"; }
-    .default_klasi article article aside {
-      padding: 10px; }
-    .default_klasi article article aside:first-child {
-      grid-area: aside1; }
-      .default_klasi article article aside:first-child ul li {
-        padding-left: 10px; }
-    .default_klasi article article aside:nth-child(2) {
-      grid-area: aside2; }
+  background-image: linear-gradient(white, white); }
 
 .valmynd {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 1em;
+  font-family: comic sans-serif; }
+  .valmynd div:first-child {
+    display: flex; }
+    .valmynd div:first-child img {
+      height: 1.9em;
+      width: 1.9em; }
+    .valmynd div:first-child p {
+      grid-area: vinstri;
+      font-size: 1.7em;
+      margin: 0;
+      padding-left: 2px; }
+  .valmynd div:nth-child(2) {
+    text-align: left; }
+    .valmynd div:nth-child(2) a {
+      grid-area: haegri;
+      text-decoration: none;
+      font-size: 1.7em;
+      justify-content: right;
+      padding-right: 10px; }
+    .valmynd div:nth-child(2) a:hover {
+      color: black;
+      border: 1px solid white;
+      border-bottom: 0px; }
+    .valmynd div:nth-child(2) .valmynd_litur {
+      margin: 0; }
+    .valmynd div:nth-child(2) .current {
+      color: #cccccc; }
+
+.default_klasi h1 {
   text-align: center;
-  background-image: linear-gradient(green, #00b300);
-  padding: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid black; }
-  .valmynd a {
+  font-size: 2em; }
+.default_klasi article article {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-areas: "aside1 aside2"; }
+  .default_klasi article article div {
+    text-align: left;
+    grid-area: aside2;
+    padding: 10px; }
+    .default_klasi article article div h1 {
+      font-size: 2em; }
+    .default_klasi article article div p {
+      font-size: 1.2em; }
+  .default_klasi article article aside {
+    grid-area: aside1;
+    border-right: 1px solid brown; }
+
+.yfirlit {
+  padding-left: 2em;
+  text-align: left; }
+  .yfirlit a {
     text-decoration: none;
-    padding: 10px;
-    border-top: 0px;
-    border-bottom: 0px;
-    font-size: 2em; }
-  .valmynd a:hover {
-    background-color: #00b300;
-    color: #ff7fff;
-    padding-right: 9px;
-    padding-left: 9px;
-    border: 1px solid white;
-    border-bottom: 0px; }
-  .valmynd .valmynd_litur {
-    margin: 0;
-    color: #00e600; }
-  .valmynd .current {
-    color: #001a00; }
+    color: black; }
+  .yfirlit a:hover {
+    color: blue; }
+  .yfirlit ul {
+    font-size: 1.2em; }

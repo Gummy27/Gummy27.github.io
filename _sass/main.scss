@@ -1,4 +1,4 @@
-$GrunnLitur:  green;
+$GrunnLitur:  white;
 $width: 1280px;
 $GrunnFontStaerd: 1.15em;
 
@@ -9,64 +9,5 @@ body{
   background-image: linear-gradient($GrunnLitur, lighten($GrunnLitur, 30));
 }
 
-.default_klasi{
-  article{
-    max-width: $width;
-    background-color: lighten($GrunnLitur, 10);
-    header{
-      text-align: center;
-      font-size: 3em;
-      font-weight: bold;
-      padding: 20px;
-    }  
-    article{
-      font-size: $GrunnFontStaerd;
-      display: grid;
-      grid-template-columns: 800px 480px;
-      grid-template-areas: "aside1 aside2";
-      aside{padding: 10px;}
-      aside:first-child{
-        grid-area: aside1;
-        ul{
-          li{
-            padding-left: 10px;
-          }
-        }
-      }
-      aside:nth-child(2){
-        grid-area: aside2;
-      }
-    }
-  }
-  
-}
-.valmynd{
-  text-align: center;
-  background-image: linear-gradient($GrunnLitur, lighten($GrunnLitur, 10));
-  padding: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid darken($GrunnLitur, 50);
-  a{
-    text-decoration: none;
-    padding: 10px;
-    border-top: 0px;
-    border-bottom: 0px;
-    font-size: 2em;
-  }
-  a:hover{
-    background-color: lighten($color: $GrunnLitur, $amount: 10);
-    color: invert($color: $GrunnLitur);
-    padding-right: 9px;
-    padding-left: 9px;
-    border: 1px solid white;
-    border-bottom: 0px;
-  }
-  .valmynd_litur{
-    margin: 0;
-    color: lighten($color: $GrunnLitur, $amount: 20);
-  }
-  .current{
-    color: darken($color: $GrunnLitur, $amount: 20)
-  }
-}
+
+

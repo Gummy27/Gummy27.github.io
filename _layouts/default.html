@@ -9,10 +9,11 @@
     <article>
       {% include navigation.html %}
       <header>
-        {{ page.titill }}
+        <h1>{{ page.titill }}</h1>
       </header>
       <article>
-        {{ content }}
+        <div>{{ content }}</div>
+        <aside>{% include yfirlit.html %}</aside>
       </article>
   </article>
   </body>
