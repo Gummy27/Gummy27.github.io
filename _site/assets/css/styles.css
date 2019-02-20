@@ -18,6 +18,7 @@ body {
       height: 1.9em;
       width: 1.9em; }
     .valmynd div:first-child p {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       grid-area: vinstri;
       font-size: 1.7em;
       margin: 0;
@@ -64,8 +65,8 @@ body {
   text-align: left; }
   .yfirlit a {
     text-decoration: none;
-    color: black; }
+    line-height: 2em; }
   .yfirlit a:hover {
     color: blue; }
   .yfirlit ul {
-    font-size: 1.2em; }
+    font-size: 1.3em; }
