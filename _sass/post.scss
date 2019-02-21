@@ -1,3 +1,13 @@
+$myndastaerd: auto;
+
 .post_innihald{
     display: flex;
+    @media screen and (max-width: 1000px){
+        display: block;
+        justify-content: center;
+        img{
+            justify-content: center;
+            text-align: center;
+        }
+    }
 }

@@ -43,4 +43,9 @@ $staerd: 1.7em;
         color: darken($color: $GrunnLitur, $amount: 20)
         }
     }
+    @media screen and (max-width: 1000px){
+        display: block;
+        text-align: right;
+        justify-content: center;
+    }
   }

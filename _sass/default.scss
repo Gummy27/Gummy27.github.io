@@ -20,6 +20,10 @@
                 grid-area: aside1;
                 border-right: 1px solid brown;
             }
+            @media screen and (max-width: 1110px){
+                display: block;
+            }
         }
+        
     }
 }

@@ -39,6 +39,11 @@ body {
       margin: 0; }
     .valmynd div:nth-child(2) .current {
       color: #cccccc; }
+  @media screen and (max-width: 1000px) {
+    .valmynd {
+      display: block;
+      text-align: right;
+      justify-content: center; } }
 
 .default_klasi h1 {
   text-align: center;
@@ -59,6 +64,9 @@ body {
   .default_klasi article article aside {
     grid-area: aside1;
     border-right: 1px solid brown; }
+  @media screen and (max-width: 1110px) {
+    .default_klasi article article {
+      display: block; } }
 
 .yfirlit {
   padding-left: 2em;
@@ -73,3 +81,10 @@ body {
 
 .post_innihald {
   display: flex; }
+  @media screen and (max-width: 1000px) {
+    .post_innihald {
+      display: block;
+      justify-content: center; }
+      .post_innihald img {
+        justify-content: center;
+        text-align: center; } }
