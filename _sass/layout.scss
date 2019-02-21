@@ -1,51 +1,64 @@
 $staerd: 1.7em;
+$GrunnLitur: #BDBEC2;
 
 .valmynd{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+    width: auto;
+    background-color: #171A23;
     border-bottom: 1px solid darken($GrunnLitur, 50);
-    margin: 0;
     padding: 1em;
     font-family: comic sans-serif;
-    div:first-child{
+    color: $GrunnLitur;
+    div{
+        margin: 0 auto;
         display: flex;
-        img{
-            height: 1.9em;
-            width: 1.9em;
+        justify-content: space-between;
+        div:first-child{
+            display: flex;
+            text-align: left;
+            img{
+                height: 2.2em;
+                width: 2.2em;
+            }
+            p{
+                font-family: Impact;
+                font-size: $staerd;
+                margin: 0;
+                padding-left: 2px;
+            }
         }
-        p{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            grid-area: vinstri;
+        div:nth-child(2){
+            text-align: right;
+            a{
+            grid-area: haegri;
+            text-decoration: none;
             font-size: $staerd;
+            justify-content: right;
+            padding-right: 10px;
+            color: $GrunnLitur;
+            }
+            a:hover{
+            color: invert($color: $GrunnLitur);
+            }
+            .valmynd_litur{
             margin: 0;
-            padding-left: 2px;
+            }
+            .current{
+            color: darken($color: $GrunnLitur, $amount: 20)
+            }
+        }
+        @media screen and (max-width: 1000px){
+            display: block;
+            text-align: left;
+            justify-content: center;
+            img{
+                margin: 0;
+                text-align: center;
+                justify-content: center;
+            }
+            div:nth-child(2){
+                justify-content: center;
+                text-align: center;
+            }
         }
     }
-    div:nth-child(2){
-        text-align: left;
-        a{
-        grid-area: haegri;
-        text-decoration: none;
-        font-size: $staerd;
-        justify-content: right;
-        padding-right: 10px;
-        }
-        a:hover{
-        color: invert($color: $GrunnLitur);
-        border: 1px solid white;
-        border-bottom: 0px;
-        }
-        .valmynd_litur{
-        margin: 0;
-        }
-        .current{
-        color: darken($color: $GrunnLitur, $amount: 20)
-        }
-    }
-    @media screen and (max-width: 1000px){
-        display: block;
-        text-align: right;
-        justify-content: center;
-    }
-  }
+}

@@ -5,10 +5,14 @@
     }
     article{
         article{
+            max-width: 1280px;
+            margin: 0 auto;
             text-align: center;
+            justify-content: center;
             display: grid;
             grid-template-columns: 2fr 4fr;
             grid-template-areas: "aside1 aside2";
+            color: #BDBEC2;
             div{
                 text-align: left;
                 grid-area: aside2;

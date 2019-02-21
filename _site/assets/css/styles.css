@@ -1,58 +1,79 @@
 body {
-  max-width: 1280px;
-  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
   height: 100vh;
-  background-image: linear-gradient(white, white); }
+  background-image: linear-gradient(#1B374C, #0e1c26);
+  color: #BDBEC2; }
+
+a {
+  color: #BDBEC2; }
+
+a:hover {
+  color: blue; }
 
 .valmynd {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border-bottom: 1px solid gray;
-  margin: 0;
+  width: auto;
+  background-color: #171A23;
+  border-bottom: 1px solid #3d3e43;
   padding: 1em;
-  font-family: comic sans-serif; }
-  .valmynd div:first-child {
-    display: flex; }
-    .valmynd div:first-child img {
-      height: 1.9em;
-      width: 1.9em; }
-    .valmynd div:first-child p {
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      grid-area: vinstri;
-      font-size: 1.7em;
-      margin: 0;
-      padding-left: 2px; }
-  .valmynd div:nth-child(2) {
-    text-align: left; }
-    .valmynd div:nth-child(2) a {
-      grid-area: haegri;
-      text-decoration: none;
-      font-size: 1.7em;
-      justify-content: right;
-      padding-right: 10px; }
-    .valmynd div:nth-child(2) a:hover {
-      color: black;
-      border: 1px solid white;
-      border-bottom: 0px; }
-    .valmynd div:nth-child(2) .valmynd_litur {
-      margin: 0; }
-    .valmynd div:nth-child(2) .current {
-      color: #cccccc; }
-  @media screen and (max-width: 1000px) {
-    .valmynd {
-      display: block;
-      text-align: right;
-      justify-content: center; } }
+  font-family: comic sans-serif;
+  color: #BDBEC2; }
+  .valmynd div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .valmynd div div:first-child {
+      display: flex;
+      text-align: left; }
+      .valmynd div div:first-child img {
+        height: 2.2em;
+        width: 2.2em; }
+      .valmynd div div:first-child p {
+        font-family: Impact;
+        font-size: 1.7em;
+        margin: 0;
+        padding-left: 2px; }
+    .valmynd div div:nth-child(2) {
+      text-align: right; }
+      .valmynd div div:nth-child(2) a {
+        grid-area: haegri;
+        text-decoration: none;
+        font-size: 1.7em;
+        justify-content: right;
+        padding-right: 10px;
+        color: #BDBEC2; }
+      .valmynd div div:nth-child(2) a:hover {
+        color: #42413d; }
+      .valmynd div div:nth-child(2) .valmynd_litur {
+        margin: 0; }
+      .valmynd div div:nth-child(2) .current {
+        color: #888a91; }
+    @media screen and (max-width: 1000px) {
+      .valmynd div {
+        display: block;
+        text-align: left;
+        justify-content: center; }
+        .valmynd div img {
+          margin: 0;
+          text-align: center;
+          justify-content: center; }
+        .valmynd div div:nth-child(2) {
+          justify-content: center;
+          text-align: center; } }
 
 .default_klasi h1 {
   text-align: center;
   font-size: 2em; }
 .default_klasi article article {
+  max-width: 1280px;
+  margin: 0 auto;
   text-align: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: 2fr 4fr;
-  grid-template-areas: "aside1 aside2"; }
+  grid-template-areas: "aside1 aside2";
+  color: #BDBEC2; }
   .default_klasi article article div {
     text-align: left;
     grid-area: aside2;
@@ -73,14 +94,19 @@ body {
   text-align: left; }
   .yfirlit a {
     text-decoration: none;
-    line-height: 2em; }
+    line-height: 2em;
+    color: #BDBEC2; }
   .yfirlit a:hover {
-    color: blue; }
+    color: white;
+    text-decoration: underline; }
   .yfirlit ul {
     font-size: 1.3em; }
 
 .post_innihald {
   display: flex; }
+  .post_innihald img {
+    height: 375px;
+    width: 250px; }
   @media screen and (max-width: 1000px) {
     .post_innihald {
       display: block;
