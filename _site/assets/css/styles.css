@@ -70,3 +70,6 @@ body {
     color: blue; }
   .yfirlit ul {
     font-size: 1.3em; }
+
+.post_innihald {
+  display: flex; }
