@@ -60,5 +60,12 @@ $GrunnLitur: #BDBEC2;
                 text-align: center;
             }
         }
+        @media screen and (max-width: 510px){
+            div:nth-child(2){
+                a{
+                    display: block;
+                }
+            }
+        }
     }
 }
