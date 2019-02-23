@@ -1,7 +1,11 @@
-$myndastaerd: auto;
+$myndastaerd: 250px;
 
 .post_innihald{
     display: flex;
+    img{
+        height: $myndastaerd*1.5;
+        width: $myndastaerd;
+    }
     @media screen and (max-width: 1000px){
         display: block;
         justify-content: center;

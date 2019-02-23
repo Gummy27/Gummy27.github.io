@@ -1,0 +1,71 @@
+$staerd: 1.7em;
+$GrunnLitur: #BDBEC2;
+
+.valmynd{
+    width: auto;
+    background-color: #171A23;
+    border-bottom: 1px solid darken($GrunnLitur, 50);
+    padding: 1em;
+    font-family: comic sans-serif;
+    color: $GrunnLitur;
+    div{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        div:first-child{
+            display: flex;
+            text-align: left;
+            img{
+                height: 2.2em;
+                width: 2.2em;
+            }
+            p{
+                font-family: Impact;
+                font-size: $staerd;
+                margin: 0;
+                padding-left: 2px;
+            }
+        }
+        div:nth-child(2){
+            text-align: right;
+            a{
+            grid-area: haegri;
+            text-decoration: none;
+            font-size: $staerd;
+            justify-content: right;
+            padding-right: 10px;
+            color: $GrunnLitur;
+            }
+            a:hover{
+            color: invert($color: $GrunnLitur);
+            }
+            .valmynd_litur{
+            margin: 0;
+            }
+            .current{
+            color: darken($color: $GrunnLitur, $amount: 20)
+            }
+        }
+        @media screen and (max-width: 1000px){
+            display: block;
+            text-align: left;
+            justify-content: center;
+            img{
+                margin: 0;
+                text-align: center;
+                justify-content: center;
+            }
+            div:nth-child(2){
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width: 510px){
+            div:nth-child(2){
+                a{
+                    display: block;
+                }
+            }
+        }
+    }
+}

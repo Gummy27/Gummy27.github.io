@@ -4,11 +4,23 @@
         font-size: 2em;
     }
     article{
+        display: grid;
+        grid-template-areas: 
+        "valmynd"
+        "innihald";
+        div{grid-area: valmynd;}
         article{
+            grid-area: innihald;
+            max-width: 1280px;
+            margin: 0 auto;
             text-align: center;
+            justify-content: center;
             display: grid;
             grid-template-columns: 2fr 4fr;
-            grid-template-areas: "aside1 aside2";
+            grid-template-areas:
+            "aside1 aside2";
+                                
+            color: #BDBEC2;
             div{
                 text-align: left;
                 grid-area: aside2;
@@ -18,7 +30,8 @@
             }
             aside{
                 grid-area: aside1;
-                border-right: 1px solid brown;
+                border-right: 1px solid #BDBEC2;
+
             }
             @media screen and (max-width: 1110px){
                 display: block;

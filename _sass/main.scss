@@ -1,12 +1,20 @@
-$GrunnLitur:  white;
+$GrunnLitur: #1B374C;
 $width: 1280px;
 $GrunnFontStaerd: 1.15em;
 
 body{
-  max-width: $width;
-  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
   height: 100vh;
-  background-image: linear-gradient($GrunnLitur, lighten($GrunnLitur, 30));
+  background-image: linear-gradient($GrunnLitur, darken($GrunnLitur, 10));
+  color: #BDBEC2;
+}
+a{
+  color: #BDBEC2;
+}
+a:hover{
+  color: blue;
 }
 
 
