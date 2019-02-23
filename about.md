@@ -2,6 +2,6 @@
 layout: default
 title: Um síðuna
 ---
-# Þessi segir hvað síðan er um.
+# Bækur
 
-Þetta mun verða skemmtilegt.
+Í þessari síðu verða bækur aðalumræðuefnið. Ég persónulega hef áhuga á bókum svo þess vegna ætla ég að tileinka vefsíðuni til þess.
