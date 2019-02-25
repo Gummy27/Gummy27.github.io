@@ -98,7 +98,7 @@ def collision():
 # Keyboard bindings
 wn.listen()
 # WASD
-wn.onkeypress(go_up, "w")
+wn.onkeypress(go_up, "1")
 wn.onkeypress(go_down, "s")
 wn.onkeypress(go_left, "a")
 wn.onkeypress(go_right, "d")
