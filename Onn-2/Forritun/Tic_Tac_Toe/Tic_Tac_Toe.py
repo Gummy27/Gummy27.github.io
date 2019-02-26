@@ -3,13 +3,15 @@ import time
 
 flag = False
 flag_1 = False
-spilari = 0
+
+global spilari
+spilari = 1
 
 # Skjár
 wn = turtle.Screen()
 wn.title("Tic Tac Toe by Gummy27")
 wn.bgcolor("white")
-wn.setup(width=600, height=600)
+wn.setup(width=700, height=700)
 
 grid = turtle.Turtle()
 grid.speed(0)
@@ -97,44 +99,42 @@ def grid_9():
 
 # Teikna
 def teikna():
-    # Kross
-    x = teiknari.xcor()
-    y = teiknari.ycor()
-    teiknari.right(45)
-    teiknari.forward(260)
-    teiknari.right(90)
-    teiknari.penup()
-    teiknari.goto(x+180, y)
-    teiknari.pendown()
-    teiknari.forward(260)
-    teiknari.left(135)
+    global spilari
+    if(spilari % 2 == 0):
+        # Kross
+        x = teiknari.xcor()
+        y = teiknari.ycor()
+        teiknari.right(45)
+        teiknari.forward(260)
+        teiknari.right(90)
+        teiknari.penup()
+        teiknari.goto(x+180, y)
+        teiknari.pendown()
+        teiknari.forward(260)
+        teiknari.left(135)
 
-    # Hringur
-    teiknari.penup()
-    teiknari.goto(teiknari.xcor()+95, teiknari.ycor())
-    teiknari.pendown()
-    teiknari.circle(90)
+    else:
+        teiknari.penup()
+        teiknari.goto(teiknari.xcor()+90, teiknari.ycor()-180)
+        teiknari.pendown()
+        teiknari.circle(90)
+
+    spilari += 1
 
 # Lyklaborð
 wn.listen()
 
-wn.onkeypress(grid_1, "1")
-wn.onkeypress(grid_2, "2")
-wn.onkeypress(grid_3, "3")
+wn.onkeypress(grid_1, "7")
+wn.onkeypress(grid_2, "8")
+wn.onkeypress(grid_3, "9")
 wn.onkeypress(grid_4, "4")
 wn.onkeypress(grid_5, "5")
 wn.onkeypress(grid_6, "6")
-wn.onkeypress(grid_7, "7")
-wn.onkeypress(grid_8, "8")
-wn.onkeypress(grid_9, "9")
+wn.onkeypress(grid_7, "1")
+wn.onkeypress(grid_8, "2")
+wn.onkeypress(grid_9, "3")
 
 while(True):
     wn.update()
 
 wn.mainloop()
-
-
-
-
-
-wn.tracer(0)  # Turns off the screen updates.

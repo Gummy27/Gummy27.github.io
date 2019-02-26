@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61a680b4-965c-4d14-9f98-0f78d1a9ff30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3" beforeDir="false" afterPath="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,52 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="759">
-                  <caret line="172" column="13" lean-forward="true" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,6 +73,7 @@
         <option value="$PROJECT_DIR$/Onn-2/Forritun/Byggja_verkefni.py" />
         <option value="$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" />
         <option value="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" />
+        <option value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py" />
       </list>
     </option>
   </component>
@@ -121,35 +86,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gummy27.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gummy27.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Onn-2" type="462c0819:PsiDirectoryNode" />
-              <item name="Forritun" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -446,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2421">
-          <caret line="203" column="21" lean-forward="true" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_67.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/geir.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Heimir.py" />
@@ -481,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="172" column="13" lean-forward="true" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+        <state relative-caret-position="317">
+          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -491,11 +425,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="841">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
