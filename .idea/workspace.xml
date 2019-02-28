@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" line="115" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61a680b4-965c-4d14-9f98-0f78d1a9ff30" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Onn-2/Fork/Einkunnir.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3" beforeDir="false" afterPath="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" afterDir="false" />
+>>>>>>> refs/remotes/origin/master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="467915689">
       <usages-collector id="statistics.lifecycle.project">
@@ -73,6 +83,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> refs/remotes/origin/master
             </state>
           </provider>
         </entry>
@@ -85,6 +104,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>movw</find>
+      <find>spilari</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,8 +141,14 @@
         <option value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_11.py" />
         <option value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_12.py" />
         <option value="$PROJECT_DIR$/Onn-2/Forritun/Byggja_verkefni.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Onn-2/Fork/Landsreisa.py" />
         <option value="$PROJECT_DIR$/Onn-2/Fork/Einkunnir.py" />
+=======
+        <option value="$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" />
+        <option value="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" />
+        <option value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py" />
+>>>>>>> refs/remotes/origin/master
       </list>
     </option>
   </component>
@@ -130,6 +161,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -149,10 +181,13 @@
         </subPane>
       </pane>
     </panes>
+=======
+    <panes />
+>>>>>>> refs/remotes/origin/master
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -172,7 +207,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.Einkunnir">
+=======
+  <component name="RunManager" selected="Python.Tic_Tac_Toe">
+>>>>>>> refs/remotes/origin/master
     <configuration name="Byggja_verkefni" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Gummy27.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +233,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Einkunnir" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Skilaverkefni_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> refs/remotes/origin/master
       <module name="Gummy27.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,53 +245,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Fork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Fork/Einkunnir.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Skilaverkefni_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Gummy27.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Skilaverkefni_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Gummy27.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_14/Skilaverkefni_14.py" />
+>>>>>>> refs/remotes/origin/master
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +266,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Skilaverkefni_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="Skilaverkefni_17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> refs/remotes/origin/master
       <module name="Gummy27.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,7 +282,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_10.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_17.py" />
+>>>>>>> refs/remotes/origin/master
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +295,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Skilaverkefni_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
     <configuration name="Skilaverkefni_3" type="PythonConfigurationType" factoryName="Python">
+>>>>>>> refs/remotes/origin/master
       <module name="Gummy27.github.io" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,11 +307,85 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_14/Skilaverkefni_14.py" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py" />
+>>>>>>> refs/remotes/origin/master
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="Skilaverkefni_17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> refs/remotes/origin/master
+      <module name="Gummy27.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_17.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun/snake" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" />
+>>>>>>> refs/remotes/origin/master
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="Skilaverkefni_3" type="PythonConfigurationType" factoryName="Python">
+=======
+    <configuration name="Tic_Tac_Toe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> refs/remotes/origin/master
+      <module name="Gummy27.github.io" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Gagn/Skilaverkefni_3/Skilaverkefni_3.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" />
+>>>>>>> refs/remotes/origin/master
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,6 +397,7 @@
     <list>
       <item itemvalue="Python.Skilaverkefni_3" />
       <item itemvalue="Python.Byggja_verkefni" />
+<<<<<<< HEAD
       <item itemvalue="Python.Skilaverkefni_10" />
       <item itemvalue="Python.Skilaverkefni_17" />
       <item itemvalue="Python.Skilaverkefni_14" />
@@ -314,6 +410,20 @@
         <item itemvalue="Python.Byggja_verkefni" />
         <item itemvalue="Python.Skilaverkefni_17" />
         <item itemvalue="Python.Skilaverkefni_10" />
+=======
+      <item itemvalue="Python.Skilaverkefni_17" />
+      <item itemvalue="Python.Skilaverkefni_14" />
+      <item itemvalue="Python.Snake" />
+      <item itemvalue="Python.Tic_Tac_Toe" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Tic_Tac_Toe" />
+        <item itemvalue="Python.Snake" />
+        <item itemvalue="Python.Skilaverkefni_14" />
+        <item itemvalue="Python.Byggja_verkefni" />
+        <item itemvalue="Python.Skilaverkefni_17" />
+>>>>>>> refs/remotes/origin/master
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +438,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548837532437</updated>
     </task>
+    <task id="LOCAL-00001" summary="Snake Forritið er klárað">
+      <created>1551104547775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551104547775</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -340,19 +458,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6572581" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32297155" />
+>>>>>>> refs/remotes/origin/master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+<<<<<<< HEAD
       <window_info anchor="bottom" x="769" y="30" width="767" height="793" id="Run" order="2" side_tool="true" type="WINDOWED" weight="0.3232682" />
+=======
+      <window_info anchor="bottom" x="0" y="23" width="1536" height="801" id="Run" maximized="true" order="2" side_tool="true" type="WINDOWED" weight="0.3232682" />
+>>>>>>> refs/remotes/origin/master
       <window_info anchor="bottom" x="11" y="271" width="1513" height="281" id="Debug" order="3" type="FLOATING" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" x="640" y="30" width="639" height="650" id="Terminal" order="8" type="WINDOWED" weight="0.32792792" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -361,28 +489,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32319894" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" x="0" y="23" width="1536" height="801" id="Run" order="2" side_tool="true" type="WINDOWED" visible="true" weight="0.3232682" />
-      <window_info anchor="bottom" x="11" y="271" width="1513" height="281" id="Debug" order="3" type="FLOATING" weight="0.398017" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="640" y="30" width="639" height="650" id="Terminal" order="8" type="WINDOWED" weight="0.32792792" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34234235" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Snake Forritið er klárað" />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake Forritið er klárað" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2421">
-          <caret line="203" column="21" lean-forward="true" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_67.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/geir.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Heimir.py" />
@@ -483,6 +586,7 @@
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_17.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_14/Skilaverkefni_14.py" />
     <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Byggja_verkefni.py">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
@@ -493,6 +597,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#438#534#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Onn-2/Forritun/Skilaverkefni_3/Skilaverkefni_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>

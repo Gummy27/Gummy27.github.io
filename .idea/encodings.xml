@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Onn-2/Fork/Einkunnir.py" charset="UTF-8" />
+=======
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Onn-2/Forritun/Tic_Tac_Toe/Tic_Tac_Toe.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Onn-2/Forritun/snake/Snake.py" charset="UTF-8" />
+>>>>>>> refs/remotes/origin/master
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
