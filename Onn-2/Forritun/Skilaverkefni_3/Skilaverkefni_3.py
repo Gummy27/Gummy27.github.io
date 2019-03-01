@@ -44,9 +44,8 @@ def paraRandomStakur(tupl1, tupl2): #Fallið tekur inn tvo tuple lista sem munu 
         print(tupl1_random[x], "og", tupl2_random[x]) #Hér eru sérstök stök úr listunum prentuð út og þau pöruð saman: Einar og Jósefína
 
 # Þetta fall reynir að finna nafn eftir aðeins einum staf.
-def finnaNafn(tupl1, tupl2): #Fallið tekur inn tvo tuple lista sem munu heita tupl1 og tupl2
+def finnaNafn(stafur, tupl1, tupl2): #Fallið tekur inn tvo tuple lista sem munu heita tupl1 og tupl2
     listi = []
-    stafur = input("Skrifaðu inn staf sem á að leita að í nöfnunum. : ") #Notandi er spurður um þann staf sem á að leita að.
     # Þessar for slaufur munu fara í gegnum báða tuple listana og taka á sig gildi úr þeim.
     for x in tupl1:
         # Í þessari for slaufu fer i í gegnum alla stafina í x til að gá hvort að stafurinn sé í orðinu.
@@ -216,9 +215,9 @@ while(True):
             elif(val == "4"):
                 paraRandomStakur(strakar, stelpur)
 
-            # Reynt er að finna einstakilng eftir aðeins einum staf.
+            # Reynt er að finna einstakling eftir aðeins einum staf.
             elif(val == "5"):
-                listaPrentari(finnaNafn(strakar, stelpur))
+                listaPrentari(finnaNafn(input("Skrifaðu inn staf sem á að leita að. : "), strakar, stelpur))
 
             # Reynt er að finna einstakling eftir fyrsta staf hans.
             elif (val == "6"):
