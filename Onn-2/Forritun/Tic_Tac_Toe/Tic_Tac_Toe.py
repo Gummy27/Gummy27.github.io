@@ -4,6 +4,8 @@ import time
 flag = False
 flag_1 = False
 
+bord = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
+
 global spilari
 spilari = 1
 
@@ -42,54 +44,62 @@ teiknari.pencolor("black")
 # Innsláttur
 #  1 Röð
 def grid_1():
-    teiknari.penup()
-    teiknari.goto(-290, 290)
-    teiknari.pendown()
-    teikna()
+    if(bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-290, 290)
+        teiknari.pendown()
+        teikna()
 
 def grid_2():
-    teiknari.penup()
-    teiknari.goto(-90, 290)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-90, 290)
+        teiknari.pendown()
+        teikna()
 
 def grid_3():
-    teiknari.penup()
-    teiknari.goto(110, 290)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(110, 290)
+        teiknari.pendown()
+        teikna()
 
 #2 Röð
 def grid_4():
-    teiknari.penup()
-    teiknari.goto(-290, 90)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-290, 90)
+        teiknari.pendown()
+        teikna()
 
 def grid_5():
-    teiknari.penup()
-    teiknari.goto(-90, 90)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-90, 90)
+        teiknari.pendown()
+        teikna()
 
 def grid_6():
-    teiknari.penup()
-    teiknari.goto(110, 90)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(110, 90)
+        teiknari.pendown()
+        teikna()
 
 #3 Röð
 def grid_7():
-    teiknari.penup()
-    teiknari.goto(-290, -110)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-290, -110)
+        teiknari.pendown()
+        teikna()
 
 def grid_8():
-    teiknari.penup()
-    teiknari.goto(-90, -110)
-    teiknari.pendown()
-    teikna()
+    if (bord[1] == "-"):
+        teiknari.penup()
+        teiknari.goto(-90, -110)
+        teiknari.pendown()
+        teikna()
 
 def grid_9():
     teiknari.penup()
