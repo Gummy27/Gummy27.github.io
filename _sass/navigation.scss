@@ -6,7 +6,6 @@ $GrunnLitur: #BDBEC2;
     background-color: #171A23;
     border-bottom: 1px solid darken($GrunnLitur, 50);
     padding: 1em;
-    font-family: comic sans-serif;
     color: $GrunnLitur;
     div{
         margin: 0 auto;
@@ -16,8 +15,9 @@ $GrunnLitur: #BDBEC2;
             display: flex;
             text-align: left;
             img{
-                height: 2.2em;
-                width: 2.2em;
+                height: 2em;
+                width: 2em;
+                padding-right: 5px;
             }
             p{
                 font-family: Impact;
@@ -60,7 +60,7 @@ $GrunnLitur: #BDBEC2;
                 text-align: center;
             }
         }
-        @media screen and (max-width: 510px){
+        @media screen and (max-width: 700px){
             div:nth-child(2){
                 display: block;
                 a{

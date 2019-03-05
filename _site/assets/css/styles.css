@@ -4,7 +4,8 @@ body {
   margin: 0;
   height: 100vh;
   background-image: linear-gradient(#1B374C, #0e1c26);
-  color: #BDBEC2; }
+  color: #BDBEC2;
+  font-family: Arial; }
 
 a {
   color: #BDBEC2; }
@@ -17,7 +18,6 @@ a:hover {
   background-color: #171A23;
   border-bottom: 1px solid #3d3e43;
   padding: 1em;
-  font-family: comic sans-serif;
   color: #BDBEC2; }
   .valmynd div {
     margin: 0 auto;
@@ -27,8 +27,9 @@ a:hover {
       display: flex;
       text-align: left; }
       .valmynd div div:first-child img {
-        height: 2.2em;
-        width: 2.2em; }
+        height: 2em;
+        width: 2em;
+        padding-right: 5px; }
       .valmynd div div:first-child p {
         font-family: Impact;
         font-size: 1.7em;
@@ -61,9 +62,11 @@ a:hover {
         .valmynd div div:nth-child(2) {
           justify-content: center;
           text-align: center; } }
-    @media screen and (max-width: 510px) {
-      .valmynd div div:nth-child(2) a {
-        display: block; } }
+    @media screen and (max-width: 700px) {
+      .valmynd div div:nth-child(2) {
+        display: block; }
+        .valmynd div div:nth-child(2) a {
+          display: block; } }
 
 .default_klasi h1 {
   text-align: center;
@@ -123,3 +126,34 @@ a:hover {
       .post_innihald img {
         justify-content: center;
         text-align: center; } }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/fonicomoon.eot?ial1p5");
+  src: url("../fonts/icomoon.eot?ial1p5#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ial1p5") format("truetype"), url("../fonts/icomoon.woff?ial1p5") format("woff"), url("../fonts/icomoon.svg?ial1p5#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-home3:before {
+  content: "\e902"; }
+
+.icon-pen:before {
+  content: "\e908"; }
+
+.icon-books:before {
+  content: "\e920"; }
+
+.icon-info:before {
+  content: "\ea0c"; }

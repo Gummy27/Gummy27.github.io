@@ -1,8 +1,8 @@
-- name: Forsíða
+- name: <span class="icon-home3"></span> Forsíða
   link: /
-- name: Um síðuna
+- name: <span class="icon-pen"></span> Um síðuna
   link: /about.html
-- name: Bækur
+- name: <span class="icon-books"></span> Bækur
   link: /blog.html
-- name: Rithöfundar
+- name: <span class="icon-info"></span> Rithöfundar
   link: /staff.html
