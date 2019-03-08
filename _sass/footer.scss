@@ -1,0 +1,29 @@
+.footer{
+    background-color: #171A23;
+    display: flex;
+    justify-content: space-between;
+    div{
+        padding: 10px;
+        max-width: 960px;
+        margin: 0 auto;
+        p{
+            margin: 0;
+            padding-top: 5px;
+        }
+    }
+    div:first-child{
+        display: flex;
+        img{
+            margin: 0;
+            width: 3em;
+            height: 3em;
+        }
+        p{
+            font-size: 2em;
+        }
+    }
+    div:nth-child(2){
+        text-align: right;
+        font-size: 1.6em;
+    }
+}

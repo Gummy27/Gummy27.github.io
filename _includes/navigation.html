@@ -1,10 +1,6 @@
 <nav class="valmynd">
   <div>
     <div>
-      <img src="/pictures/GBB.svg" alt="Mynd">
-      <p>Blaðrað um bækur</p>
-    </div>
-    <div>
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}"{% if page.url == item.link %}class="current"{% endif %} class = "valmynd_litur">{{ item.name }}</a>
       {% endfor %}

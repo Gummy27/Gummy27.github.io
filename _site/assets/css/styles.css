@@ -23,50 +23,21 @@ a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: space-between; }
-    .valmynd div div:first-child {
-      display: flex;
-      text-align: left; }
-      .valmynd div div:first-child img {
-        height: 2em;
-        width: 2em;
-        padding-right: 5px; }
-      .valmynd div div:first-child p {
-        font-family: Impact;
-        font-size: 1.7em;
-        margin: 0;
-        padding-left: 2px; }
-    .valmynd div div:nth-child(2) {
+    .valmynd div div {
       text-align: right; }
-      .valmynd div div:nth-child(2) a {
+      .valmynd div div a {
         grid-area: haegri;
         text-decoration: none;
         font-size: 1.7em;
         justify-content: right;
         padding-right: 10px;
         color: #BDBEC2; }
-      .valmynd div div:nth-child(2) a:hover {
+      .valmynd div div a:hover {
         color: #42413d; }
-      .valmynd div div:nth-child(2) .valmynd_litur {
+      .valmynd div div .valmynd_litur {
         margin: 0; }
-      .valmynd div div:nth-child(2) .current {
+      .valmynd div div .current {
         color: #888a91; }
-    @media screen and (max-width: 1000px) {
-      .valmynd div {
-        display: block;
-        text-align: left;
-        justify-content: center; }
-        .valmynd div img {
-          margin: 0;
-          text-align: center;
-          justify-content: center; }
-        .valmynd div div:nth-child(2) {
-          justify-content: center;
-          text-align: center; } }
-    @media screen and (max-width: 700px) {
-      .valmynd div div:nth-child(2) {
-        display: block; }
-        .valmynd div div:nth-child(2) a {
-          display: block; } }
 
 .default_klasi h1 {
   text-align: center;
@@ -157,3 +128,26 @@ a:hover {
 
 .icon-info:before {
   content: "\ea0c"; }
+
+.footer {
+  background-color: #171A23;
+  display: flex;
+  justify-content: space-between; }
+  .footer div {
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto; }
+    .footer div p {
+      margin: 0;
+      padding-top: 5px; }
+  .footer div:first-child {
+    display: flex; }
+    .footer div:first-child img {
+      margin: 0;
+      width: 3em;
+      height: 3em; }
+    .footer div:first-child p {
+      font-size: 2em; }
+  .footer div:nth-child(2) {
+    text-align: right;
+    font-size: 1.6em; }

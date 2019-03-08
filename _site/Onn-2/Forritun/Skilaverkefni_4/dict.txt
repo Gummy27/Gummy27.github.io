@@ -1,0 +1,4 @@
+{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
+{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
+{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
+{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}

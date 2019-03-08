@@ -11,22 +11,7 @@ $GrunnLitur: #BDBEC2;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        div:first-child{
-            display: flex;
-            text-align: left;
-            img{
-                height: 2em;
-                width: 2em;
-                padding-right: 5px;
-            }
-            p{
-                font-family: Impact;
-                font-size: $staerd;
-                margin: 0;
-                padding-left: 2px;
-            }
-        }
-        div:nth-child(2){
+        div{
             text-align: right;
             a{
             grid-area: haegri;
@@ -44,28 +29,6 @@ $GrunnLitur: #BDBEC2;
             }
             .current{
             color: darken($color: $GrunnLitur, $amount: 20)
-            }
-        }
-        @media screen and (max-width: 1000px){
-            display: block;
-            text-align: left;
-            justify-content: center;
-            img{
-                margin: 0;
-                text-align: center;
-                justify-content: center;
-            }
-            div:nth-child(2){
-                justify-content: center;
-                text-align: center;
-            }
-        }
-        @media screen and (max-width: 700px){
-            div:nth-child(2){
-                display: block;
-                a{
-                    display: block;
-                }
             }
         }
     }
