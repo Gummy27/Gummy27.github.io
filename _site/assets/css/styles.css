@@ -2,7 +2,6 @@ body {
   text-align: center;
   justify-content: center;
   margin: 0;
-  height: 100vh;
   background-image: linear-gradient(#1B374C, #0e1c26);
   color: #BDBEC2;
   font-family: Arial; }
@@ -26,10 +25,8 @@ a:hover {
     .valmynd div div {
       text-align: right; }
       .valmynd div div a {
-        grid-area: haegri;
         text-decoration: none;
         font-size: 1.7em;
-        justify-content: right;
         padding-right: 10px;
         color: #BDBEC2; }
       .valmynd div div a:hover {
@@ -38,6 +35,16 @@ a:hover {
         margin: 0; }
       .valmynd div div .current {
         color: #888a91; }
+    @media screen and (max-width: 700px) {
+      .valmynd div {
+        text-align: center;
+        display: block; }
+        .valmynd div a {
+          display: block;
+          text-align: center;
+          border-bottom: 1px solid gray; }
+        .valmynd div a:last-child {
+          border-bottom: 0px; } }
 
 .default_klasi h1 {
   text-align: center;
@@ -54,23 +61,33 @@ a:hover {
     text-align: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 3fr 4fr;
     grid-template-areas: "aside1 aside2";
     color: #BDBEC2; }
     .default_klasi article article div {
       text-align: left;
-      grid-area: aside2;
-      padding: 10px; }
+      justify-content: center;
+      grid-area: aside2; }
       .default_klasi article article div h1 {
         font-size: 2em; }
       .default_klasi article article div p {
         font-size: 1.2em; }
+      .default_klasi article article div img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%; }
+      @media screen and (max-width: 600px) {
+        .default_klasi article article div img {
+          width: 300px;
+          height: 300px; } }
     .default_klasi article article aside {
       grid-area: aside1;
       border-right: 1px solid #BDBEC2; }
-    @media screen and (max-width: 1110px) {
-      .default_klasi article article {
-        display: block; } }
+  @media screen and (max-width: 1110px) {
+    .default_klasi article article {
+      display: block; } }
 
 .yfirlit {
   padding-left: 2em;
@@ -84,6 +101,16 @@ a:hover {
     text-decoration: underline; }
   .yfirlit ul {
     font-size: 1.3em; }
+  .yfirlit img {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
+  @media screen and (max-width: 1110px) {
+    .yfirlit {
+      display: block; } }
 
 .post_innihald {
   display: flex; }

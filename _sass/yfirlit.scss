@@ -13,4 +13,15 @@
     ul{
         font-size: 1.3em;
     }
+    img{
+        width: 350px;
+        height: 350px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    @media screen and (max-width: 1110px){
+        display: block;
+    }
 }

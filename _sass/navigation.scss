@@ -14,10 +14,8 @@ $GrunnLitur: #BDBEC2;
         div{
             text-align: right;
             a{
-            grid-area: haegri;
             text-decoration: none;
             font-size: $staerd;
-            justify-content: right;
             padding-right: 10px;
             color: $GrunnLitur;
             }
@@ -30,6 +28,16 @@ $GrunnLitur: #BDBEC2;
             .current{
             color: darken($color: $GrunnLitur, $amount: 20)
             }
+        }
+        @media screen and (max-width: 700px){
+            text-align: center;
+            display: block;
+            a{
+                display: block;
+                text-align: center;
+                border-bottom: 1px solid gray;
+            }
+            a:last-child{border-bottom: 0px;}
         }
     }
 }
