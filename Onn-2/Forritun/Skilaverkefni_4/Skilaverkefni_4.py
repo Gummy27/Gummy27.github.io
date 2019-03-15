@@ -5,33 +5,36 @@
 def greinaskil(): 
    print('==========')
 
-def Valmynd(verkefna_listi):
-    for x, y in enumerate(verkefna_listi):
-        print(str(x+1)+'.', y)
-    return(input('Hvaða dæmi viltu skoða? : '))
+# Fall fyrir valmynd var búið til svo ég þyrfti ekki að búa til valmynd aftur og aftur fyrir hvert dæmi
+# Þetta var áður en ég lærði að ég þyrfti ekki að gera valmynd fyrir öll dæmin.
+def Valmynd(verkefna_listi): # Fallið tekur inn lista af nöfnum á verkefni svo hann geti prenta það út.
+    for x, y in enumerate(verkefna_listi): # x tekur á sig teljara og y tekur á sig nafn á verkefni.
+        print(str(x+1)+'.', y) # Prentað er út teljarann + 1 sem segir númer hvað verkefnið er. Nafnið er líka prentað út.
+    return(input('Hvaða dæmi viltu skoða? : ')) # Fallið skilar inputi notanda um hvaða verkefni hann ætlar að skoða.
 
 
 # Föll sem notuð er aftur og aftur
-# 
-def skrifaSkra(listi, nafntxt):
-    f = open(nafntxt+".txt", "a+", encoding="utf-8")
-    for x, y in enumerate(listi):
-        if x != len(listi)-1:
-            f.write(str(y)+" ")
-        else:
-            f.write(str(y))
-    f.close()
+# Fallið skrifaskra tekur inn lista og nafn á skrá og setur allt innihald listanns í skrá..
+def skrifaSkra(listi, nafntxt):  # Fallið tekur inn lista(listi) og skrárheiti(nafntxt).
+    f = open(nafntxt+".txt", "a+", encoding="utf-8") # f opnar skrá í a+ ham svo hægt sé að umbreyta skránni.
+    # Þessi slaufa fer í gegnum listann listi.
+    f.write(str(listi)+"\n") # Hár listi er skrifaður inn í skránna ásamt nýrri línu.
+    f.close() # Skránni er lokað.
 
 def lesaSkra(nafnTxtSkra):
-    listi = []
-    f = open(nafnTxtSkra+".txt", "r", encoding="utf-8")
-    listi = list(map(int, f.read().split(" ")))
+    f = open(nafnTxtSkra+".txt", "r", encoding="utf-8") # f opnar skrá í les ham.
+    try:
+        listi = list(map(int, f.read().split(" "))) # Reynt er að setja línuna í lista sem integers.
+    except: # Hérna er listi bara hrár því aðeins strengir eru í honum.
+        f.seek(0)
+        listi = f.read()
+    return(listi) # Listanum er skilað.
     f.close()
-    return(listi)
 
-def prenta(listi):
-    for x, y in enumerate(listi):
-        if(x != len(listi)-1):
+# Fallið tekur inn lista og prentar hann fallega út.
+def prenta(listi): # Fallið tekur inn lista og endurnefnir hann listi.
+    for x, y in enumerate(listi): # x tekur á sig teljara og y tekur á sig gildi úr listanum.
+        if(x != len(listi)-1): # Gáð er hvort að slaufan sé kominn á síðasta gildi.
             print(y, end=", ")
         else:
             print(y)
@@ -107,13 +110,7 @@ def fjorda_hver_tala(listi): # Fallið tekur inn lista sem verður endurnefndur 
 # Þetta fall tekur inn tuple og skrifar hana inn í skránna tuple.txt
 def skrifa_i_tuple(tupla): # Fallið tekur inn tuple og endurnefnir hana tupla.
     f = open("tuple.txt", "a+", encoding="utf-8") # f er notað til að opna tuple.txt í umbreytinga fasanum a+ og encoding utf-8
-    f.write("\n(") # Skrifað er inn ný lína svo að ný lína er búinn til fyrir það sem á að skrifa.
-    # For lykkja er hafinn sem mun fara í gegnum tuple. 
-    for x, y in enumerate(tupla): # x tekur á sig teljarann sem enumerate gefur upp. Y tekur inn gildi úr tuple.
-        if (x != len(tupla) - 1): # Gáð er hvort að við séum kominn á enda tuplunar. 
-            f.write(y + ", ") # Ef svo er þá mun forritið skrifa y með , inn í skjalið.
-        else: # Ef að við erum kominn á enda tuplunar.
-            f.write(y + ")") # Þá er y skrifað inn í listann með sviga til að loka tupluna.
+    f.write(str(tupla)+"\n")
     f.close() # Skjalinu er lokað svo að engar villur komi upp með að vista gögnin.
 
 # Þetta fall á að lesa úr texta skjalinu og prenta út innihaldið.
@@ -136,49 +133,43 @@ def bua_til_tuple():
 # Þetta fall finnur summu fyrstu tuplunar.
 def summa_fyrstu_tupplunar():
     f = open("tuple.txt", "r", encoding="utf-8") # f opnar skránna tuple.txt í fasanum r. Encoding = utf-8
-    f.seek(0) # f er sett á byrjun skjalsins svo að finnur fyrstu færsluna. 
-    listi = list(map(int, f.readline()[1:-2].split(","))) # Listinn listi tekur inn línu af tölum. Allir svigar teknir út = [1:-2]. 
+    f.seek(0) # f er sett á byrjun skjalsins svo að finnur fyrstu færsluna.
+    gut) # Listinn listi tekur inn línu af tölum. Allir svigar teknir út = [1:-2].
     return(sum(listi)) # Summa listans er skilað.
-
+    f.close()
 # Föll sem eru notuð í dæmi 4
 
 # Þetta fall lætur notanda búa til dictionary.
 def buaTilDict(): 
     dict = {} # Fallið dict er skilgreint og mun vera notað til að geyma dictionary.
     for x in range(int(input('Hve mikið af hlutum á að vera í dictionary? : '))): # For lykkja er hafinn og fer eins oft og notandi gefur upp.
-        dict[input("Lykill : ")] = int(input("Gildi : ")) # Notandi er spurður um lykil og gildi fyrir dictionary.
+        dict[input("Nafn : ")] = int(input("Tala : ")) # Notandi er spurður um lykil og gildi fyrir dictionary.
     return(dict) # Dictionary er skilað til baka.
 
 # Þetta fall tekur inn dict og skrifar það í skránna.
 def skrifaDictISkra(dict):
     f = open('dict.txt', 'a+', encoding='utf-8') # f opnar dict.txt í umbreytingar fasanum a+. Encoding = utf-8.
-    f.write("{") # Skrifað er { í skránna.
-    teljari = 0 # Teljari er stofnaður og mun vera notaður til að telja hve oft for slaufa hefur loopað.
-    for key, value in dict.items(): # key fær á sig lykil dict og value fær á sig gildi dict.
-        if teljari != len(dict)-1: # Gáð er hvort að við séum ekki kominn á síðustu færsluna í dict.
-            f.write("'" + key + "': " + str(value) + ', ') # Skrifað er inn lykillinn og gildið með : á milli og síðan , á eftir.
-        else:
-            f.write("'"+key+"': "+str(value)+'}\n') # Skrifað er inn lykilinn og gildið með : á mili og síðan } og ný lína.
-        teljari += 1
+    f.write(str(dict)+"\n")
     f.close()
 
+# Þetta fall les úr skrá sem inniheldur dictionary og prentar það út.
 def lesaDictSkra():
-    f = open('dict.txt', 'r', encoding='utf-8')
-    print(f.readline())
+    f = open('dict.txt', 'r', encoding='utf-8') # f opnar dict.txt og opnar það í read ham.
+    for x in f:
+        print(x)
     f.close()
 
+# Fallið skrifar út lykil og gildi úr skránni.
 def skrifaUtItems():
-    f = open('dict.txt', 'r', encoding='utf-8')
-    for teljari, x in enumerate(f):
-        print("  Lína", teljari+1)
-        listi = x[1:-2].split(", ")
+    f = open('dict.txt', 'r', encoding='utf-8') # f opnar dict.txt og opnar hana í read ham.
+    print("lykill     gildi")
+    for teljari, line in enumerate(f):
+        listi = line[1:-2].split(", ")
         for i in listi:
-            strengur = i.replace("'", "")
-            lykill, gildi = strengur.split(":")
-            print(lykill+" "*(7-len(lykill)), gildi)
-        greinaskil()
-
+            key, value = i.split(": ")
+            print(key.replace("'", ""), " "*(13-len(key)), value)
     f.close()
+
 # Valmynd
 verkefni = ['Sléttar tölur', 'Prímtölur', 'Tuple skrá', 'Dictionary', 'Hætta'] 
 while(True):
@@ -208,6 +199,12 @@ while(True):
         skrifaSkra(fjordaHver, "fjorda") #g
  
     elif val == '3':
+        tuple_1 = (1,2,3,4,5,6,7,8,9)
+        tuple_2 = ('a','b','c','d','e','f','g','h')
+        tuple_3 = ("konni", 123, "sponni", 234)
+        skrifa_i_tuple(tuple_1)
+        skrifa_i_tuple(tuple_2)
+        skrifa_i_tuple(tuple_3)
         print("Tuple skráinn er prentuð út:")
         lesaTupleSkra()
         greinaskil()
@@ -215,18 +212,32 @@ while(True):
         tuple_listi = bua_til_tuple() #d
         skrifa_i_tuple(tuple_listi)
         greinaskil()
-        print("Summa fyrstu tuplunar er prentað út:")
+        lesaTupleSkra()
+        greinaskil()
+        print("Summa fyrstu tuplunar er:", end=" ")
         print(summa_fyrstu_tupplunar())
- 
+        f = open('tuple.txt', 'a+', encoding="utf-8")
+        f.seek(0)
+        f.truncate()
+        f.close()
+
     elif val == '4':
+        print("Búa til skrá.")
         skrifaDictISkra(buaTilDict())
-        lesaSkra("dict")
+        print("Lesa skrá.")
+        print(lesaSkra("dict"))
+        print("Lesa skrá með dict falli.")
         lesaDictSkra()
         greinaskil()
         skrifaDictISkra(buaTilDict())
         greinaskil()
         skrifaDictISkra(buaTilDict())
+        greinaskil()
         skrifaUtItems()
+        f = open("dict.txt", "a+", encoding="utf-8")
+        f.seek(0)
+        f.truncate()
+        f.close()
 
 
     elif(val == '5'):
