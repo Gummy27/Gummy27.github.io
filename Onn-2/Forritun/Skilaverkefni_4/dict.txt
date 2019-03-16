@@ -1,4 +1,1 @@
-{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
-{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
-{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
-{'konni': 1, 'snorri': 2, 'kalli': 3, 'palli': 4}
+{'palli': 1, 'stína': 2, 'jóna': 3}
