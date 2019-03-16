@@ -112,6 +112,64 @@ a:hover {
     .yfirlit {
       display: block; } }
 
+@keyframes eymundsson {
+  from {
+    right: 25px;
+    top: 57px; }
+  to {
+    right: 25px;
+    top: -100px; } }
+@keyframes pennin {
+  from {
+    left: 20px;
+    top: 50px; }
+  to {
+    left: 20px;
+    top: 207px; } }
+@keyframes rammi {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 7px; }
+  100% {
+    background-color: red;
+    left: 10px;
+    top: 7px; } }
+.auglysing {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background-color: white;
+  /*
+  animation-name: rammi;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  justify-content: center;
+  */ }
+  .auglysing div img:first-child {
+    position: absolute;
+    animation-name: pennin;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    justify-content: center;
+    left: 20px;
+    top: 50px; }
+  .auglysing div img:last-child {
+    position: absolute;
+    animation-name: eymundsson;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    justify-content: center;
+    right: 25px;
+    top: 57px; }
+  .auglysing div p {
+    position: absolute;
+    bottom: 0px; }
+
 .post_innihald {
   display: flex; }
   .post_innihald img {
