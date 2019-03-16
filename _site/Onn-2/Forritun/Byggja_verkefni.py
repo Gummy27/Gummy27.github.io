@@ -1,6 +1,5 @@
 import datetime
 import os
-print(datetime.date.today())
 
 nafn = input("Hvað viltu að verkefnið heiti?: ")
 os.mkdir(nafn)
