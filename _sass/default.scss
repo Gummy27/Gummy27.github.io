@@ -18,10 +18,9 @@
             display: grid;
             grid-template-columns: 3fr 4fr;
             grid-template-areas:
-            "aside1 aside2";
-                                
+            "aside1 aside2";                 
             color: #BDBEC2;
-            div{
+            div:first-child{
                 text-align: left;
                 justify-content: center;
                 grid-area: aside2;
@@ -35,7 +34,7 @@
                     height: 50%;
                 }
                 @media screen and (max-width: 600px){
-                    img{
+                    img:first-child{
                         width: 300px;
                         height: 300px;
                     }

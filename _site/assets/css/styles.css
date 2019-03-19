@@ -64,22 +64,22 @@ a:hover {
     grid-template-columns: 3fr 4fr;
     grid-template-areas: "aside1 aside2";
     color: #BDBEC2; }
-    .default_klasi article article div {
+    .default_klasi article article div:first-child {
       text-align: left;
       justify-content: center;
       grid-area: aside2; }
-      .default_klasi article article div h1 {
+      .default_klasi article article div:first-child h1 {
         font-size: 2em; }
-      .default_klasi article article div p {
+      .default_klasi article article div:first-child p {
         font-size: 1.2em; }
-      .default_klasi article article div img {
+      .default_klasi article article div:first-child img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
         height: 50%; }
       @media screen and (max-width: 600px) {
-        .default_klasi article article div img {
+        .default_klasi article article div:first-child img:first-child {
           width: 300px;
           height: 300px; } }
     .default_klasi article article aside {
@@ -101,13 +101,6 @@ a:hover {
     text-decoration: underline; }
   .yfirlit ul {
     font-size: 1.3em; }
-  .yfirlit img {
-    width: 350px;
-    height: 350px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center; }
   @media screen and (max-width: 1110px) {
     .yfirlit {
       display: block; } }
@@ -128,13 +121,24 @@ a:hover {
     top: 150px; } }
 @keyframes rammi {
   0% {
-    background-color: #015301; }
+    background-image: url(/pictures/AuMynd_1.svg); }
+  40% {
+    background-image: url(/pictures/AuMynd_2.svg); }
+  80% {
+    background-image: url(/pictures/AuMynd_3.svg); }
   100% {
-    background-color: lightblue; } }
+    background-color: #015301; } }
+@keyframes merki {
+  0% {
+    bottom: 5px; }
+  80% {
+    bottom: 5px; }
+  100% {
+    bottom: 100px; } }
 @keyframes texti {
   0% {
     opacity: 0; }
-  50% {
+  80% {
     opacity: 0; }
   100% {
     opacity: 100; } }
@@ -145,38 +149,31 @@ a:hover {
   position: relative;
   background-color: white;
   animation-name: rammi;
-  animation-duration: 4s;
+  animation-duration: 12s;
   animation-iteration-count: 1;
   animation-direction: alternate-reverse;
   justify-content: center;
   background-color: #015301; }
-  .auglysing div img:first-child {
-    overflow: hidden;
+  .auglysing img {
+    width: 450px;
+    height: auto;
     position: absolute;
-    animation-name: pennin;
-    animation-duration: 2s;
+    animation-name: merki;
+    animation-duration: 10s;
     animation-iteration-count: 1;
-    animation-direction: alternate-reverse;
-    justify-content: center;
-    left: 20px;
-    top: 150px; }
-  .auglysing div img:last-child {
-    position: absolute;
-    animation-name: eymundsson;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-direction: alternate-reverse;
-    justify-content: center;
     right: 25px;
-    top: 157px; }
+    bottom: 100px; }
   .auglysing p {
-    display: none;
+    color: white;
+    position: absolute;
     animation-name: texti;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     text-align: center;
-    padding: 170px;
+    bottom: 25px;
+    padding-left: 20px;
     font-style: italic;
+    font-weight: bold;
     font-family: helvetica; }
 
 .post_innihald {

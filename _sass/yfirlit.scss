@@ -13,14 +13,6 @@
     ul{
         font-size: 1.3em;
     }
-    img{
-        width: 350px;
-        height: 350px;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
     @media screen and (max-width: 1110px){
         display: block;
     }
@@ -40,13 +32,23 @@
 
 @keyframes rammi
 {
-    0%   {background-color:rgb(1, 83, 1);}
-    100% {background-color:lightblue}
+    0%   {background-image: url(/pictures/AuMynd_1.svg);}
+    40% {background-image: url(/pictures/AuMynd_2.svg);}
+    80% {background-image: url(/pictures/AuMynd_3.svg);}
+    100% {background-color: rgb(1, 83, 1);}
 }
+
+@keyframes merki
+{
+    0% {bottom: 5px;}
+    80% {bottom: 5px;}
+    100% {bottom: 100px;}
+}
+
 @keyframes texti
 {
     0% {opacity: 0;}
-    50% {opacity: 0;}
+    80% {opacity: 0;}
     100% {opacity: 100;}
 }
 
@@ -57,44 +59,32 @@
     position: relative;
     background-color: white;
     animation-name: rammi;
-    animation-duration: 4s;
+    animation-duration: 12s;
     animation-iteration-count: 1;
     animation-direction: alternate-reverse;
     justify-content: center;
     background-color: rgb(1, 83, 1);
-    div{
-        // Pennin
-        img:first-child{
-            overflow: hidden;
-            position: absolute;
-            animation-name: pennin;
-            animation-duration: 2s;
-            animation-iteration-count: 1;
-            animation-direction: alternate-reverse;
-            justify-content: center;
-            left: 20px;
-            top: 150px;
-        }
-        // Eymunddson
-        img:last-child{
-            position: absolute;
-            animation-name: eymundsson;
-            animation-duration: 2s;
-            animation-iteration-count: 1;
-            animation-direction: alternate-reverse;
-            justify-content: center;
-            right: 25px;;
-            top: 157px;
-        }
+    img{
+        width: 450px;
+        height: auto;
+        position: absolute;
+        animation-name: merki;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        right: 25px;
+        bottom: 100px;
     }
-    p{
-        display: none;
+    p{  
+        color: white;
+        position: absolute;
         animation-name: texti;
-        animation-duration: 4s;
+        animation-duration: 10s;
         animation-iteration-count: 1;
         text-align: center;
-        padding: 170px;
+        bottom: 25px;
+        padding-left: 20px;
         font-style: italic;
+        font-weight: bold;
         font-family: helvetica;
     }
 }
