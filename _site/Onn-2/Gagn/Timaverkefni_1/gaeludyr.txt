@@ -1,9 +1,0 @@
-Jonni;Vaskur;Hundur
-Josefina;Keli;Kottur
-Einar;Jon;Morgaes
-Geir;Snati;Hundur
-Heimir;Ragnar;Mannkyns
-Halldor;Moli;Hundur
-Anna;Tyra;Rotta
-Magnus;Giszmo;Edla
-Einar;Mummi;Mavur
