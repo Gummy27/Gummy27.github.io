@@ -1,6 +1,10 @@
 <nav class="valmynd">
-  <div>
+  <div class="dropdown">
     <div>
+      <img src="../pictures/Lundi.svg">
+      <span class="icon-menu"></span>
+    </div>
+    <div class="dropdown-content">
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}"{% if page.url == item.link %}class="current"{% endif %} class = "valmynd_litur">{{ item.name }}</a>
       {% endfor %}

@@ -7,37 +7,73 @@ $GrunnLitur: #BDBEC2;
     border-bottom: 1px solid darken($GrunnLitur, 50);
     padding: 1em;
     color: $GrunnLitur;
-    div{
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        div{
-            text-align: right;
-            a{
-            text-decoration: none;
-            font-size: $staerd;
-            padding-right: 10px;
-            color: $GrunnLitur;
-            }
-            a:hover{
-            color: invert($color: $GrunnLitur);
-            }
-            .valmynd_litur{
+    @media screen and (max-width: 700px){
+        width: 100%;
+        position: fixed;
+    }
+}
+
+.dropdown{
+    div:first-child{
+        img{
+            position: absolute;
             margin: 0;
-            }
-            .current{
-            color: darken($color: $GrunnLitur, $amount: 20)
-            }
+            width: 1.2em;
+            height: 1.2em;
+            left: 0;
         }
-        @media screen and (max-width: 700px){
-            text-align: center;
+        span{
+            position: relative;
+            margin: 0;
+            padding-left: 85%;
+        }
+        display: none;
+        font-size: $staerd;
+    }
+    @media screen and (max-width: 700px){
+        div:first-child{display: block;}
+        position: relative;
+        height: 2em;
+    }
+}
+
+.dropdown-content{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    a{
+        text-decoration: none;
+        font-size: $staerd;
+        padding-right: 10px;
+        color: $GrunnLitur;
+    }
+    a:hover{
+        color: invert($color: $GrunnLitur);
+    }
+    @media screen and (max-width: 700px){
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #171A23;
+    }
+}
+
+.dropdown:hover .dropdown-content{
+    @media screen and (max-width: 700px){
+        display: block;
+        right: 2%;
+        a{
             display: block;
-            a{
-                display: block;
-                text-align: center;
-                border-bottom: 1px solid gray;
-            }
-            a:last-child{border-bottom: 0px;}
         }
     }
+}
+
+
+.valmynd_litur{
+    margin: 0;
+}
+.current{
+    color: darken($color: $GrunnLitur, $amount: 20)
 }
