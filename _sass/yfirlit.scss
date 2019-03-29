@@ -1,4 +1,5 @@
 $auglysing: rgb(1, 83, 1);
+$lengd: 11s;
 
 .yfirlit{
     a{
@@ -22,10 +23,9 @@ $auglysing: rgb(1, 83, 1);
 
 @keyframes rammi
 {
-    from   {background-image: url(/pictures/AuMynd_1.svg); opacity: 1s ease-in-out;}
-    33% {background-image: url(/pictures/AuMynd_2.svg); opacity: 1s ease-in-out;}
-    66% {background-image: url(/pictures/AuMynd_3.svg); opacity: 1s ease-in-out;}
-    to {background-color: $auglysing; opacity: 1s ease-in-out;}
+    from   {background-image: url(/pictures/AuMynd_1.svg);}
+    66% {background-image: url(/pictures/AuMynd_3.svg);}
+    to {background-image: url(/pictures/GraennBakgrunnur.svg);}
 }
 
 @keyframes merki
@@ -43,34 +43,40 @@ $auglysing: rgb(1, 83, 1);
 }
 
 .auglysing{
+    padding: 0;
+    margin: 0;
     text-align: center;
     width: 500px;
     height: 300px;
     position: relative;
     background-color: $auglysing;
     animation-name: rammi;
-    animation-duration: 12s;
+    animation-duration: $lengd;
     animation-iteration-count: 1;
+    transition-timing-function: ease-in-out;
     justify-content: center;
-    img{
-        width: 450px;
-        height: auto;
-        position: absolute;
-        animation-name: merki;
-        animation-duration: 11s;
-        animation-iteration-count: 1;
-        right: 25px;
-        bottom: 100px;
+    a:first-child{
+        img{
+            width: 450px;
+            height: auto;
+            position: absolute;
+            animation-name: merki;
+            animation-duration: $lengd;
+            animation-iteration-count: 1;
+            right: 25px;
+            bottom: 100px;
+        }
     }
-    a{
+    a:last-child{
         text-decoration: none;  
         color: white;
         position: absolute;
         animation-name: texti;
-        animation-duration: 11s;
+        animation-duration: $lengd+1;
         animation-iteration-count: 1;
+        right: 25%;
         text-align: center;
-        bottom: 25px;
+        bottom: 65px;
         font-style: italic;
         font-weight: bold;
         font-family: helvetica;
