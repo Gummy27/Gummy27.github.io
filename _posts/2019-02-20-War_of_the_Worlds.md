@@ -2,6 +2,8 @@
 title: War of the Worlds
 layout: post
 author: Wells
+fullt_nafn: H. G. Wells
+genre: Vísindaskáldskapur
 picture: /pictures/War_of_the_Worlds.jpg 
 ---
 The War of the Worlds(Innrásinn frá Mars) er vísindaskáldskapur eftir H. G. Wells.

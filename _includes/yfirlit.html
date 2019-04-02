@@ -1,10 +1,16 @@
 <nav class="yfirlit">
     <h2>Bækur:</h2>
     <ul>
-        <li><a href="/2019/02/20/War_of_the_Worlds.html">War of the Worlds</a> - <a href="/authors/HGWells.html">H. G. Wells</a></li>
-        <li><a href="/2019/02/20/egmandig.html">Ég man þig</a> - <a href="/authors/YrsaSigurdardottir.html">Yrsa Sigurðardóttir</a></li>
-        <li><a href="/2019/02/20/einvigid.html">Einvígið</a> - <a href="/authors/ArnaldurIndridasson.html">Analdur Indriðason</a></li>
-        <l1><a href="/2019/02/20/guidetothegalaxy.html">Leiðarvísir puttaferðalangsins um Vetrarbrautina</a> - <a href="/authors/DouglasAdams.html">Douglas Adams</a></l1>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                 - 
+                {% for author in site.authors %}
+                    {% if post.author == author.short_name  %}
+                        <a href="{{ author.url }}">{{ post.fullt_nafn }}</a></li>
+                    {% endif %}
+                {% endfor %}
+        {% endfor %}
     </ul>
     <div class="auglysing">
         <a href="https://www.penninn.is/"><img src="/pictures/EymundssonOgPenninn.svg"></a>

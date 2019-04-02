@@ -159,13 +159,15 @@ a:hover {
   100% {
     opacity: 100; } }
 .auglysing {
+  padding: 0;
+  margin: 0;
   text-align: center;
   width: 500px;
-  height: 300.0012000048px;
+  height: 300px;
   position: relative;
   background-color: #015301;
   animation-name: rammi;
-  animation-duration: 0;
+  animation-duration: 11s;
   animation-iteration-count: 1;
   transition-timing-function: ease-in-out;
   justify-content: center; }
@@ -174,23 +176,23 @@ a:hover {
     height: auto;
     position: absolute;
     animation-name: merki;
-    animation-duration: 0;
+    animation-duration: 11s;
     animation-iteration-count: 1;
     right: 25px;
-    bottom: 30%; }
+    bottom: 100px; }
   .auglysing a:last-child {
     text-decoration: none;
     color: white;
     position: absolute;
     animation-name: texti;
-    animation-duration: 1;
+    animation-duration: 12s;
     animation-iteration-count: 1;
-    right: 20%;
-    bottom: 15%;
+    right: 25%;
+    text-align: center;
+    bottom: 65px;
     font-style: italic;
     font-weight: bold;
-    font-family: helvetica;
-    font-size: 1em; }
+    font-family: helvetica; }
 
 .post_innihald {
   display: flex; }
@@ -261,3 +263,19 @@ a:hover {
   .footer div:nth-child(2) {
     text-align: right;
     font-size: 1.6em; }
+
+.tafla {
+  display: none;
+  width: 100%;
+  background-image: linear-gradient(to right, #171A23, #2b3142, #171A23); }
+  .tafla a {
+    text-decoration: none; }
+  .tafla th {
+    padding: 10px; }
+
+@media screen and (max-width: 830px) {
+  .tafla {
+    display: none; }
+
+  .tafla2 {
+    display: inline-block; } }

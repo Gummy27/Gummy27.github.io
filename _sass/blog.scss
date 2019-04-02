@@ -1,0 +1,22 @@
+$bakgrunnslitur: #171A23;
+
+.tafla{
+    display: none;
+    width: 100%;
+    // border-left: 1px solid red;
+    // border-top: 1px solid red;
+    background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
+    a{
+        text-decoration: none;
+    }
+    th{
+        // border-bottom: 1px solid red;
+        // border-right: 1px solid red;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .tafla{display: none;}
+    .tafla2{display: inline-block;}
+}

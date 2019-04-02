@@ -2,6 +2,8 @@
 title: Hitchiker's guide to the galaxy
 layout: post
 author: Douglas
+fullt_nafn: Douglas Adams
+genre: Vísindaskáldskapur
 picture: /pictures/Guide_to_the_galaxy.jpg
 ---
 Leiðarvísir puttaferðalangsins um Vetrarbrautina er vísindaskáldskapur eftir Douglas adams.

@@ -2,13 +2,49 @@
 layout: default
 title: Blog
 ---
-<h1>Nýjustu blogg</h1>
-
-<ul>
+<h1>Bóka blogg</h1>
+<table class = "tafla">
+  <tr>
+    <th>Bók:</th>
+    <th>Höfundur:</th>
+    <th>Flokkur:</th>
+  </tr>
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    <tr>
+      <th><a href="{{ post.url }}">{{ post.title }}</a></th>
+      {% for author in site.authors %}
+        {% if post.author == author.short_name  %}
+          <th><a href="{{ author.url }}">{{ post.fullt_nafn }}</a></th>
+        {% endif %}
+      {% endfor %}
+      <th>{{ post.genre }}</th>
+    </tr>
   {% endfor %}
-</ul>
+</table>
+
+<table class = "tafla2">
+  {% for post in site.posts %}
+    {% if post.genre == "Sakamálasaga" %}
+      <tr>
+        <th><a href="{ post.url }">{{ post.title }}</a></th>
+        {% for author in site.authors %}
+          {% if post.author == author.short_name  %}
+            <th><a href="{{ author.url }}">{{ post.fullt_nafn }}</a></th>
+          {% endif %}
+        {% endfor %}
+      </tr>
+    {% endif %}
+  {% endfor %}
+  {% for post in site.posts %}
+    {% if post.genre == "Vísindaskáldskapur" %}
+      <tr>
+        <th><a href="{ post.url }">{{ post.title }}</a></th>
+        {% for author in site.authors %}
+          {% if post.author == author.short_name  %}
+            <th><a href="{{ author.url }}">{{ post.fullt_nafn }}</a></th>
+          {% endif %}
+        {% endfor %}
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
