@@ -23,6 +23,7 @@ title: Blog
 </table>
 
 <table class = "tafla2">
+  <caption>Sakamálasaga</caption>
   {% for post in site.posts %}
     {% if post.genre == "Sakamálasaga" %}
       <tr>
@@ -35,6 +36,9 @@ title: Blog
       </tr>
     {% endif %}
   {% endfor %}
+</table>
+<table class = "tafla2">
+  <caption>Vísindaskáldskapur</caption>
   {% for post in site.posts %}
     {% if post.genre == "Vísindaskáldskapur" %}
       <tr>

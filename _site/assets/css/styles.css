@@ -265,7 +265,7 @@ a:hover {
     font-size: 1.6em; }
 
 .tafla {
-  display: none;
+  display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right, #171A23, #2b3142, #171A23); }
   .tafla a {
@@ -273,7 +273,22 @@ a:hover {
   .tafla th {
     padding: 10px; }
 
-@media screen and (max-width: 830px) {
+.tafla2 {
+  display: none;
+  width: 80%;
+  background-image: linear-gradient(to right, #171A23, #2b3142, #171A23); }
+  .tafla2 a {
+    text-decoration: none; }
+  .tafla2 th {
+    padding: 10px; }
+  .tafla2 th:first-child {
+    width: 50%;
+    text-align: left; }
+  .tafla2 th:last-child {
+    width: 50%;
+    text-align: right; }
+
+@media screen and (max-width: 650px) {
   .tafla {
     display: none; }
 

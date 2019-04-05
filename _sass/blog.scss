@@ -1,7 +1,7 @@
 $bakgrunnslitur: #171A23;
 
 .tafla{
-    display: none;
+    display: inline-block;
     width: 100%;
     // border-left: 1px solid red;
     // border-top: 1px solid red;
@@ -15,8 +15,27 @@ $bakgrunnslitur: #171A23;
         padding: 10px;
     }
 }
+.tafla2{
+    display: none;
+    width: 80%;
+    background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
+    a{
+        text-decoration: none;
+    }
+    th{
+        padding: 10px;
+    }
+    th:first-child{
+        width: 50%;
+        text-align: left;
+    }
+    th:last-child{
+        width: 50%;
+        text-align: right;
+    }
+}
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 650px){
     .tafla{display: none;}
     .tafla2{display: inline-block;}
 }
