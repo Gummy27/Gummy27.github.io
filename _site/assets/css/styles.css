@@ -294,3 +294,20 @@ a:hover {
 
   .tafla2 {
     display: inline-block; } }
+.form {
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: block;
+  color: red; }
+  .form caption {
+    position: absolute;
+    bottom: 100%;
+    color: blue;
+    padding: 10000px; }
+  .form div {
+    padding: 10px; }
+    .form div label {
+      display: block; }
+      .form div label input {
+        width: 100%; }

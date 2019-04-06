@@ -3,28 +3,16 @@ $bakgrunnslitur: #171A23;
 .tafla{
     display: inline-block;
     width: 100%;
-    // border-left: 1px solid red;
-    // border-top: 1px solid red;
     background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
-    a{
-        text-decoration: none;
-    }
-    th{
-        // border-bottom: 1px solid red;
-        // border-right: 1px solid red;
-        padding: 10px;
-    }
+    a {text-decoration: none;}
+    th {padding: 10px;}
 }
 .tafla2{
     display: none;
     width: 80%;
     background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
-    a{
-        text-decoration: none;
-    }
-    th{
-        padding: 10px;
-    }
+    a {text-decoration: none;}
+    th {padding: 10px;}
     th:first-child{
         width: 50%;
         text-align: left;
