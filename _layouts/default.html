@@ -16,7 +16,11 @@
           <img src="/pictures/Lundi.svg">
           {{ content }}
         </div>
-        <aside>{% include form.html %}</aside>
+        {% if page.url ==  "/blog.html" %}
+          <aside>{% include form.html %}</aside>
+        {% else %}
+          <aside>{% include yfirlit.html %}</aside>
+        {% endif %}
       </article>
   </article>
   <footer class="footer">{% include footer.html %}</footer>
