@@ -298,16 +298,42 @@ a:hover {
   width: 90%;
   border: 1px solid gray;
   border-radius: 25px;
-  display: block;
   color: red; }
   .form caption {
     position: absolute;
     bottom: 100%;
-    color: blue;
-    padding: 10000px; }
+    color: blue; }
   .form div {
     padding: 10px; }
-    .form div label {
-      display: block; }
-      .form div label input {
-        width: 100%; }
+
+#cluster1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  #cluster1 label {
+    text-align: left;
+    padding-top: 10px; }
+    #cluster1 label input {
+      width: 95%; }
+
+#cluster2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+  #cluster2 label {
+    text-align: left;
+    padding-top: 10px;
+    width: 100%; }
+
+textarea {
+  height: 100px;
+  width: 90%;
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif; }
+
+#Takki {
+  padding-top: 20px; }
+
+#bokaform {
+  text-align: left; }
+
+#Tungumal {
+  text-align: center; }

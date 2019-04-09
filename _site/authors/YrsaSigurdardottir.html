@@ -52,34 +52,86 @@
 </ul>
         </div>
         <aside><form class="form" action="#" method="GET">
-    <caption>Innskráning</caption>
+    <legend>Bókabeiðni</legend>
     <div>
+        <div id="cluster1">
+            <label id="Simanumer">
+                Símanúmer:
+                <input type="tel" 
+                    pattern="[0-9]{3} [0-9]{4}"
+                    name="Símanúmer"
+                    placeholder="123 4567"
+                    autofocus
+                    title="Vinsamlegast skráðu inn símanúmer"
+                    required>
+            </label>
+            <label id="Netfang">
+                Netfang:
+                <input type="email"
+                    name="Netfang"
+                    placeholder="jon@eimskip.is"
+                    title="Vinsamlegast skrifaðu inn netfang"
+                    required>
+            </label>
+            <label id="Nafn">
+                Nafn:
+                <input type="text"
+                    name="Nafn"
+                    placeholder="Jón Hallfreðsson"
+                    title="Vinsamlegast skrifaðu inn nafn"
+                    required>
+            </label>
+            <label id="Bok">
+                Bók:
+                <input type="text"
+                    name="Bókarnafn"
+                    placeholder="Englar Alheimsins"
+                    title="Vinsamlegast sláðu inn bókina sem þú ætlar að biðja um"
+                    required>
+            </label>
+            <label id="Utgafudagur">
+                Útgáfudagur:
+                <input type="date"
+                    name="Utgafudagur"
+                    placeholder="Ókunnt">
+            </label>
+            <label id="Hofundur">
+                Höfundur:
+                <input type="text"
+                    name="Nafn höfundar"
+                    placeholder="Ónafngreindur">
+            </label>
+        </div>
+        <div id="cluster2">
+            <label id="bokaform">
+                Bókaform:
+                <input type="radio"
+                    value="Innbundin"
+                    name="Bokaform"
+                    checked>
+                Innbundin
+                <input type="radio"
+                    name="Bokaform"
+                    value="Kilja">
+                Kilja
+            </label>
+
+            <label id="Tungumal">
+                Bókin er á 
+                <select nafn="Tungumal">
+                    <option value="Islenska" selected>Íslensku</option>
+                    <option value="Enska">Ensku</option>
+                    <option value="Danska">Dönsku</option>
+                </select>
+            </label>
+        </div>
         <label>
-            Símanúmer:
-            <input type="tel" 
-                name="Símanúmer"
-                placeholder="581 2345"
-                autofocus
-                pattern="\d{}"
-                title="Vinsamlegast skráið inn símanúmer"
-                required>
+            <caption>Nánar um bókina:</caption>
+            <textarea></textarea>
         </label>
-        <label>
-            Netfang:
-            <input type="email"
-                name="Netfang"
-                placeholder="jon@eimskip.is"
-                title="Vinsamlegast skrifaðu inn netfang"
-                required>
-        </label>
-        <label>
-            Nafn:
-            <input type="text"
-                name="Nafn"
-                placeholder="Jón Hallfreðsson"
-                title="Vinsamlegast skrifaðu inn nafn"
-                required>
-        </label>
+        <button id="Takki">
+            Skrá inn
+        </button>
     </div>
 </form></aside>
       </article>

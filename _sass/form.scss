@@ -2,21 +2,63 @@
     width: 90%;
     border: 1px solid gray;
     border-radius: 25px;
-    display: block;
     color: red;
     caption{
         position: absolute;
         bottom: 100%;
         color: blue;
-        padding: 10000px;
     }
-    div{
-        padding: 10px;
-        label{
-            display: block;
-            input{
-                width: 100%;
-            }
+    div{padding: 10px;}
+}
+
+#cluster1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    label{
+        text-align: left;
+        padding-top: 10px;
+        input{
+            width: 95%;
         }
     }
+}
+
+#cluster2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    label{
+        text-align: left;
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+
+textarea{
+    height: 100px;
+    width: 90%;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#Nafn{}
+
+#Simanumer{}
+
+#Bok{}
+
+#Utgafudagur{}
+
+#Hofundur{}
+
+#Takki{
+    padding-top: 20px;
+}
+
+#bokaform{
+    text-align: left;
+}
+
+#Tungumal{
+    text-align: center;
 }
