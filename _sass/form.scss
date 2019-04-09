@@ -21,6 +21,12 @@
             width: 95%;
         }
     }
+    @media screen and (max-width: 500px){
+        display: block;
+        label{
+            padding-bottom: 10px;
+        }
+    }
 }
 
 #cluster2{
@@ -40,19 +46,9 @@ textarea{
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-#Nafn{}
-
-#Simanumer{}
-
-#Bok{}
-
-#Utgafudagur{}
-
-#Hofundur{}
-
-#Takki{
-    padding-top: 20px;
+#tjekk{
+    display: block;
+    padding-bottom: 10px;
 }
 
 #bokaform{

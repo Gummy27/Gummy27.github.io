@@ -314,6 +314,11 @@ a:hover {
     padding-top: 10px; }
     #cluster1 label input {
       width: 95%; }
+  @media screen and (max-width: 500px) {
+    #cluster1 {
+      display: block; }
+      #cluster1 label {
+        padding-bottom: 10px; } }
 
 #cluster2 {
   display: grid;
@@ -329,8 +334,9 @@ textarea {
   font-size: 1.2em;
   font-family: 'Times New Roman', Times, serif; }
 
-#Takki {
-  padding-top: 20px; }
+#tjekk {
+  display: block;
+  padding-bottom: 10px; }
 
 #bokaform {
   text-align: left; }
