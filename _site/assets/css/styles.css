@@ -263,6 +263,11 @@ a:hover {
   .footer div:nth-child(2) {
     text-align: right;
     font-size: 1.6em; }
+  @media screen and (max-width: 750px) {
+    .footer {
+      font-size: 0.5em; }
+      .footer div:first-child p {
+        display: none; } }
 
 .tafla {
   display: inline-block;
@@ -298,7 +303,7 @@ a:hover {
   width: 90%;
   border: 1px solid gray;
   border-radius: 25px;
-  color: red; }
+  color: #BDBEC2; }
   .form caption {
     position: absolute;
     bottom: 100%;
