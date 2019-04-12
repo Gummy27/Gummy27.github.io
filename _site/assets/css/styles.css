@@ -271,17 +271,19 @@ a:hover {
 
 .tafla {
   display: inline-block;
-  width: 100%;
-  background-image: linear-gradient(to right, #171A23, #2b3142, #171A23); }
+  width: 100%; }
   .tafla a {
     text-decoration: none; }
   .tafla th {
     padding: 10px; }
+  .tafla tbody tr:nth-child(odd) {
+    background-color: #171A23; }
+  .tafla tbody tr:nth-child(even) {
+    background-color: #2b3142; }
 
 .tafla2 {
   display: none;
-  width: 80%;
-  background-image: linear-gradient(to right, #171A23, #2b3142, #171A23); }
+  width: 80%; }
   .tafla2 a {
     text-decoration: none; }
   .tafla2 th {
@@ -293,12 +295,19 @@ a:hover {
     width: 50%;
     text-align: right; }
 
+.tafla2 {
+  background-color: #171A23; }
+
+.tafla2:last-of-type {
+  background-color: #2b3142; }
+
 @media screen and (max-width: 650px) {
   .tafla {
     display: none; }
 
   .tafla2 {
-    display: inline-block; } }
+    display: inline-block;
+    padding-left: 10%; } }
 .form {
   width: 90%;
   border: 1px solid gray;

@@ -3,14 +3,20 @@ $bakgrunnslitur: #171A23;
 .tafla{
     display: inline-block;
     width: 100%;
-    background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
     a {text-decoration: none;}
     th {padding: 10px;}
+    tbody{
+        tr:nth-child(odd){
+            background-color: $bakgrunnslitur;
+        }
+        tr:nth-child(even){
+            background-color: lighten($bakgrunnslitur, 10);
+        }
+    }
 }
 .tafla2{
     display: none;
     width: 80%;
-    background-image: linear-gradient(to right, $bakgrunnslitur, lighten($bakgrunnslitur, 10), $bakgrunnslitur);
     a {text-decoration: none;}
     th {padding: 10px;}
     th:first-child{
@@ -22,8 +28,17 @@ $bakgrunnslitur: #171A23;
         text-align: right;
     }
 }
+.tafla2{
+    background-color: $bakgrunnslitur;
+}
+.tafla2:last-of-type{
+    background-color: lighten($color: $bakgrunnslitur, $amount: 10);
+}
 
 @media screen and (max-width: 650px){
     .tafla{display: none;}
-    .tafla2{display: inline-block;}
+    .tafla2{
+        display: inline-block;
+        padding-left: 10%;
+        }
 }
